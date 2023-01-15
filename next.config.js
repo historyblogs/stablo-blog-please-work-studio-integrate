@@ -8,7 +8,6 @@ module.exports = {
     legacyBrowsers: false,
     browsersListForSwc: true
   },
-  module.exports = {
   async redirects() {
     return [
       {
@@ -18,5 +17,4 @@ module.exports = {
       },
     ]
   }
-}
 };
