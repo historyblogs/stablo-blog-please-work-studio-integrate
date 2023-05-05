@@ -77,10 +77,7 @@ export default function Contact({ siteconfig }) {
               )}
               {siteconfig?.phone && (
                 <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                  <PhoneIcon className="w-4 h-4" />
-                  <a href={`tel:${siteconfig.phone}`}>
-                    {siteconfig.phone}
-                  </a>
+                 
                 </div>
               )}
             </div>
