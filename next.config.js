@@ -105,6 +105,131 @@ module.exports = {
         destination: '/post/13921-vanowen-st-van-nuys',
         permanent: true,
       },
+      {
+        source: '/too-ugly-for-a-yimby',
+        destination: '/post/too-ugly-for-a-yimby',
+        permanent: true,
+      },
+{
+        source: '/361-n-citrus-ave',
+        destination: '/post/361-n-citrus-ave',
+        permanent: true,
+      },
+{
+        source: '/933-s-gramercy-pl',
+        destination: '/post/933-s-gramercy-pl',
+        permanent: true,
+      },
+{
+        source: '/1529-n-winona-blvd',
+        destination: '/post/1529-n-winona-blvd',
+        permanent: true,
+      },
+{
+        source: '/4629-4651-w-maubert-ave',
+        destination: '/post/4629-4651-w-maubert-ave',
+        permanent: true,
+      },
+{
+        source: '/4201-s-crenshaw-3600-w-stocker',
+        destination: '/post/4201-s-crenshaw-3600-w-stocker',
+        permanent: true,
+      },
+{
+        source: '/1517-23-w-8th-st',
+        destination: '/post/1517-23-w-8th-st',
+        permanent: true,
+      },
+{
+        source: '/third-strike-wiseman',
+        destination: '/post/third-strike-wiseman',
+        permanent: true,
+      },
+{
+        source: '/3-beauties-episode-20',
+        destination: '/post/the-cranky-preservationist-3-beauties-bite-the-dust-episode-20',
+        permanent: true,
+      },
+{
+        source: '/pantages-neon-episode-22',
+        destination: '/post/the-cranky-preservationist-in-what-the-hell-happened-to-the-pantages-neon-episode-22',
+        permanent: true,
+      },
+{
+        source: '/save-normandie',
+        destination: '/post/the-cranky-preservationist-and-friends-in-save-700-normandie-avenue-koreatown-s-little-new-york',
+        permanent: true,
+      },
+{
+        source: '/1330-w-pico-aka-the-albany',
+        destination: '/post/the-cranky-preservationist-and-the-mystery-of-the-shrinking-hpoz-at-1330-w-pico-aka-the-albany',
+        permanent: true,
+      },
+{
+        source: '/wall',
+        destination: '/post/the-cranky-preservationist-in-don-t-f-with-my-bunker-hill-retaining-wall-episode-25',
+        permanent: true,
+      },
+{
+        source: '/white-log-coffee',
+        destination: '/post/the-cranky-preservationist-in-reports-of-the-death-of-the-white-log-coffee-shop-have-been',
+        permanent: true,
+      },
+{
+        source: '/3525-south-bronson-ave',
+        destination: '/post/3525-south-bronson-ave',
+        permanent: true,
+      },
+{
+        source: '/1138-wilshire-blvd',
+        destination: '/post/1138-wilshire-blvd',
+        permanent: true,
+      },
+{
+        source: '/10912-west-blix-st-no-hollywood',
+        destination: '/post/10912-west-blix-st-no-hollywood',
+        permanent: true,
+      },
+{
+        source: '/easing-back-into-it-via-915-s-grand-view',
+        destination: '/post/easing-back-into-it-via-915-s-grand-view',
+        permanent: true,
+      },
+{
+        source: '/3967-beverly-and-friends',
+        destination: '/post/3967-beverly-and-friends',
+        permanent: true,
+      },
+{
+        source: '/354-north-avenue-53',
+        destination: '/post/354-north-avenue-53',
+        permanent: true,
+      },
+{
+        source: '/4544-los-feliz-blvd',
+        destination: '/post/4544-los-feliz-blvd',
+        permanent: true,
+      },
+{
+        source: '/4544-los-feliz-blvd',
+        destination: '/post/4544-los-feliz-blvd',
+        permanent: true,
+      },
+{
+        source: '/save-bnai-brith',
+        destination: '/post/b-nai-b-rith-846-south-union-ave',
+        permanent: true,
+      },
+{
+        source: '/the-cecils-ghost',
+        destination: '/post/the-cecil-s-ghost',
+        permanent: true,
+      },
+{
+        source: '/the-cecil-is-the-citys-fault',
+        destination: '/post/the-cecil-is-the-city-s-fault',
+        permanent: true,
+      },
     ]
   }
 };
