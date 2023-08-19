@@ -28,8 +28,8 @@ export default function Navbar(props) {
       href: "/archive"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
+      label: "Esotouric",
+      href: "https://www.esotouric.com/",
       external: true,
       badge: "new"
     },
