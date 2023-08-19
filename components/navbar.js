@@ -30,8 +30,7 @@ export default function Navbar(props) {
     {
       label: "Esotouric",
       href: "https://www.esotouric.com/",
-      external: true,
-      badge: "new"
+      external: true
     },
     {
       label: "Download",
