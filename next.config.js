@@ -230,6 +230,11 @@ module.exports = {
         destination: '/post/the-cecil-is-the-city-s-fault',
         permanent: true,
       },
+{
+        source: '/a-word-or-two-on-density',
+        destination: '/post/a-word-or-two-on-density',
+        permanent: true,
+      },      
     ]
   }
 };
