@@ -235,6 +235,11 @@ module.exports = {
         destination: '/post/a-word-or-two-on-density',
         permanent: true,
       },      
+ {
+        source: 'an-appeal-to-reason-at-1537-south-wilton-pl',
+        destination: '/post/an-appeal-to-reason-at-1537-south-wilton-pl',
+        permanent: true,
+      },     
     ]
   }
 };
