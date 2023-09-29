@@ -236,7 +236,7 @@ module.exports = {
         permanent: true,
       },      
  {
-        source: 'an-appeal-to-reason-at-1537-south-wilton-pl',
+        source: '/an-appeal-to-reason-at-1537-south-wilton-pl',
         destination: '/post/an-appeal-to-reason-at-1537-south-wilton-pl',
         permanent: true,
       },     
