@@ -39,16 +39,12 @@ export default function Post(props) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
-  const imageProps = post?.mainImage
-    ? GetImage(post?.mainImage)
-    : null;
 
-  const AuthorimageProps = post?.author?.image
-    ? GetImage(post.author.image)
-    : null;
+  const imageSrc = post?.mainImage ? GetImage(post.mainImage) : null;
+  const authorImageSrc = post?.author?.image ? GetImage(post.author.image) : null;
 
   const ogimage = siteConfig?.openGraphImage
-    ? GetImage(siteConfig?.openGraphImage).src
+    ? GetImage(siteConfig?.openGraphImage)
     : defaultOG.src;
 
   return (
@@ -65,7 +61,7 @@ export default function Post(props) {
               description: post.excerpt || "",
               images: [
                 {
-                  url: GetImage(post?.mainImage).src || ogimage,
+                  url: imageSrc || ogimage,
                   width: 800,
                   height: 600,
                   alt: ""
@@ -77,24 +73,6 @@ export default function Post(props) {
               cardType: "summary_large_image"
             }}
           />
-          {/*
-          <div className="relative bg-white/20">
-            <div className="absolute w-full h-full -z-10">
-              {post?.mainImage && (
-                <Image
-                  {...GetImage(post.mainImage)}
-                  alt={post.mainImage?.alt || "Thumbnail"}
-                  layout="fill"
-                  objectFit="cover"
-                />
-              )}
-            </div>
-            <Container className="py-48">
-              <h1 className="relative max-w-3xl mx-auto mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl after:absolute after:w-full after:h-full after:bg-white after:inset-0 after:-z-10 after:blur-2xl after:scale-150">
-                {post.title}
-              </h1>
-            </Container>
-          </div> */}
 
           <Container className="!pt-0">
             <div className="max-w-screen-md mx-auto ">
@@ -109,14 +87,11 @@ export default function Post(props) {
               <div className="flex justify-center mt-3 space-x-3 text-gray-500 ">
                 <div className="flex items-center gap-3">
                   <div className="relative flex-shrink-0 w-10 h-10">
-                    {AuthorimageProps && (
+                    {authorImageSrc && (
                       <Image
-                        src={AuthorimageProps.src}
-                        blurDataURL={AuthorimageProps.blurDataURL}
-                        loader={AuthorimageProps.loader}
+                        src={authorImageSrc}
+                        alt={post?.author?.name || "Author"}
                         objectFit="cover"
-                        alt={post?.author?.name}
-                        placeholder="blur"
                         layout="fill"
                         className="rounded-full"
                       />
@@ -129,13 +104,10 @@ export default function Post(props) {
                     <div className="flex items-center space-x-2 text-sm">
                       <time
                         className="text-gray-500 dark:text-gray-400"
-                        dateTime={
-                          post?.publishedAt || post._createdAt
-                        }>
+                        dateTime={post?.publishedAt || post._createdAt}
+                      >
                         {format(
-                          parseISO(
-                            post?.publishedAt || post._createdAt
-                          ),
+                          parseISO(post?.publishedAt || post._createdAt),
                           "MMMM dd, yyyy"
                         )}
                       </time>
@@ -150,13 +122,10 @@ export default function Post(props) {
           </Container>
 
           <div className="relative z-0 max-w-screen-lg mx-auto overflow-hidden lg:rounded-lg aspect-video">
-            {imageProps && (
+            {imageSrc && (
               <Image
-                src={imageProps.src}
-                loader={imageProps.loader}
-                blurDataURL={imageProps.blurDataURL}
+                src={imageSrc}
                 alt={post.mainImage?.alt || "Thumbnail"}
-                placeholder="blur"
                 layout="fill"
                 loading="eager"
                 objectFit="cover"
@@ -164,7 +133,6 @@ export default function Post(props) {
             )}
           </div>
 
-          {/* {post?.mainImage && <MainImage image={post.mainImage} />} */}
           <Container>
             <article className="max-w-screen-md mx-auto ">
               <div className="mx-auto my-3 prose prose-base dark:prose-invert prose-a:text-blue-500">
@@ -186,23 +154,7 @@ export default function Post(props) {
   );
 }
 
-const MainImage = ({ image }) => {
-  return (
-    <div className="mt-12 mb-12 ">
-      <Image {...GetImage(image)} alt={image.alt || "Thumbnail"} />
-      <figcaption className="text-center ">
-        {image.caption && (
-          <span className="text-sm italic text-gray-600 dark:text-gray-400">
-            {image.caption}
-          </span>
-        )}
-      </figcaption>
-    </div>
-  );
-};
-
 export async function getStaticProps({ params, preview = false }) {
-  //console.log(params);
   const post = await getClient(preview).fetch(singlequery, {
     slug: params.slug
   });

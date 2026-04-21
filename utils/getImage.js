@@ -1,12 +1,18 @@
 import client from "@lib/sanity";
-import { useNextSanityImage } from "next-sanity-image";
+import imageUrlBuilder from "@sanity/image-url";
+
+const builder = imageUrlBuilder(client);
 
 export default function GetImage(image, CustomImageBuilder = null) {
-  const imageProps = useNextSanityImage(client, image, {
-    imageBuilder: CustomImageBuilder
-  });
   if (!image || !image.asset) {
     return null;
   }
-  return imageProps;
+
+  let imageBuilder = builder.image(image);
+
+  if (CustomImageBuilder) {
+    imageBuilder = CustomImageBuilder(imageBuilder);
+  }
+
+  return imageBuilder.url();
 }
