@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "@components/layout";
@@ -14,6 +13,33 @@ import { singlequery, configQuery, pathquery } from "@lib/groq";
 import { PortableText } from "@portabletext/react";
 import CategoryLabel from "@components/blog/category";
 import AuthorCard from "@components/blog/authorCard";
+
+const portableTextComponents = {
+  types: {
+    image: ({ value }) => {
+      const src = GetImage(value);
+
+      if (!src) return null;
+
+      return (
+        <figure className="my-6">
+          <Image
+            src={src}
+            alt={value?.alt || "Post image"}
+            width={1200}
+            height={800}
+            className="rounded-lg"
+          />
+          {value?.caption && (
+            <figcaption className="mt-2 text-sm text-center text-gray-500">
+              {value.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
+    }
+  }
+};
 
 export default function Post(props) {
   const { postdata, siteconfig, preview } = props;
@@ -50,9 +76,9 @@ export default function Post(props) {
           <NextSeo
             title={`${post.title} - ${siteConfig.title}`}
             description={post.excerpt || ""}
-            canonical={`${siteConfig?.url}/post/${post.slug?.current || post.slug}`}
+            canonical={`${siteConfig?.url}/post/${post.slug.current}`}
             openGraph={{
-              url: `${siteConfig?.url}/post/${post.slug?.current || post.slug}`,
+              url: `${siteConfig?.url}/post/${post.slug.current}`,
               title: `${post.title} - ${siteConfig.title}`,
               description: post.excerpt || "",
               images: [
@@ -130,7 +156,12 @@ export default function Post(props) {
           <Container>
             <article className="max-w-screen-md mx-auto ">
               <div className="mx-auto my-3 prose prose-base dark:prose-invert prose-a:text-blue-500">
-                {post.body && <PortableText value={post.body} />}
+                {post.body && (
+                  <PortableText
+                    value={post.body}
+                    components={portableTextComponents}
+                  />
+                )}
               </div>
               <div className="flex justify-center mt-7 mb-7">
                 <Link href="/">
