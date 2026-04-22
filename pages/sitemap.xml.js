@@ -8,15 +8,19 @@ export default function Sitemap() {
 }
 
 export async function getServerSideProps({ res }) {
-  const posts = await getClient(false).fetch(pathquery);
+  try {
+    const posts = await getClient(false).fetch(pathquery);
+    const safePosts = Array.isArray(posts) ? posts : [];
 
-  const urls = [`${siteUrl}/`, `${siteUrl}/archive`];
+    const urls = [`${siteUrl}/`, `${siteUrl}/archive`];
 
-  posts?.filter(page => page?.slug).forEach(page => {
-    urls.push(`${siteUrl}/post/${page.slug}`);
-  });
+    safePosts
+      .filter(page => typeof page?.slug === "string" && page.slug.length > 0)
+      .forEach(page => {
+        urls.push(`${siteUrl}/post/${page.slug}`);
+      });
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${urls
     .map(
@@ -26,9 +30,14 @@ export async function getServerSideProps({ res }) {
     .join("\n  ")}
 </urlset>`;
 
-  res.setHeader("Content-Type", "text/xml");
-  res.write(xml);
-  res.end();
+    res.setHeader("Content-Type", "text/xml");
+    res.write(xml);
+    res.end();
+  } catch (error) {
+    console.error("sitemap error:", error);
+    res.statusCode = 500;
+    res.end("Error generating sitemap");
+  }
 
   return { props: {} };
 }
