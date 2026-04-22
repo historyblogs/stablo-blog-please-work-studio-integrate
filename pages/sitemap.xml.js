@@ -10,23 +10,18 @@ export default function Sitemap() {
 export async function getServerSideProps({ res }) {
   const posts = await getClient(false).fetch(pathquery);
 
-  const urls = [
-    `${siteUrl}/`,
-    `${siteUrl}/archive`
-  ];
+  const urls = [`${siteUrl}/`, `${siteUrl}/archive`];
 
-  posts
-    ?.filter(page => page?.slug)
-    .forEach(page => {
-	posts?.filter(page => page?.slug).forEach(page => {
-  urls.push(`${siteUrl}/post/${page.slug}`);
-});
+  posts?.filter(page => page?.slug).forEach(page => {
+    urls.push(`${siteUrl}/post/${page.slug}`);
+  });
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${urls
     .map(
-      url => `<url>oc>${url}</loc>hangefreq>weekly</changefreq><priority>0.7</priority></url>`
+      url =>
+        `<url><loc>${url}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>`
     )
     .join("\n  ")}
 </urlset>`;
