@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PortableText } from "@lib/sanity";
+import { PortableText } from "@portabletext/react";
 import GetImage from "@utils/getImage";
 
 export default function AuthorCard({ author }) {
