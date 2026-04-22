@@ -4,18 +4,14 @@ import Link from "next/link";
 import Layout from "@components/layout";
 import Container from "@components/container";
 import { useRouter } from "next/router";
-import client, {
-  getClient,
-  usePreviewSubscription,
-  PortableText
-} from "@lib/sanity";
+import client, { getClient, usePreviewSubscription } from "@lib/sanity";
 import ErrorPage from "next/error";
 import GetImage from "@utils/getImage";
 import { parseISO, format } from "date-fns";
 import { NextSeo } from "next-seo";
 import defaultOG from "/public/img/opengraph.jpg";
-
 import { singlequery, configQuery, pathquery } from "@lib/groq";
+import { PortableText } from "@portabletext/react";
 import CategoryLabel from "@components/blog/category";
 import AuthorCard from "@components/blog/authorCard";
 
@@ -26,7 +22,7 @@ export default function Post(props) {
   const { slug } = router.query;
 
   const { data: post } = usePreviewSubscription(singlequery, {
-    params: { slug: slug },
+    params: { slug },
     initialData: postdata,
     enabled: preview || router.query.preview !== undefined
   });
@@ -44,7 +40,7 @@ export default function Post(props) {
   const authorImageSrc = post?.author?.image ? GetImage(post.author.image) : null;
 
   const ogimage = siteConfig?.openGraphImage
-    ? GetImage(siteConfig?.openGraphImage)
+    ? GetImage(siteConfig.openGraphImage)
     : defaultOG.src;
 
   return (
@@ -54,9 +50,9 @@ export default function Post(props) {
           <NextSeo
             title={`${post.title} - ${siteConfig.title}`}
             description={post.excerpt || ""}
-            canonical={`${siteConfig?.url}/post/${post.slug.current}`}
+            canonical={`${siteConfig?.url}/post/${post.slug?.current || post.slug}`}
             openGraph={{
-              url: `${siteConfig?.url}/post/${post.slug.current}`,
+              url: `${siteConfig?.url}/post/${post.slug?.current || post.slug}`,
               title: `${post.title} - ${siteConfig.title}`,
               description: post.excerpt || "",
               images: [
@@ -111,9 +107,7 @@ export default function Post(props) {
                           "MMMM dd, yyyy"
                         )}
                       </time>
-                      <span>
-                        · {post.estReadingTime || "5"} min read
-                      </span>
+                      <span>· {post.estReadingTime || "5"} min read</span>
                     </div>
                   </div>
                 </div>
@@ -173,6 +167,7 @@ export async function getStaticProps({ params, preview = false }) {
 
 export async function getStaticPaths() {
   const allPosts = await client.fetch(pathquery);
+
   return {
     paths:
       allPosts?.map(page => ({
