@@ -29,9 +29,9 @@ export default function Post(props) {
     enabled: preview || router.query.preview !== undefined
   });
   //console.log(posts);
-  const ogimage = siteConfig?.openGraphImage
-    ? GetImage(siteConfig?.openGraphImage).src
-    : defaultOG.src;
+const ogimage = siteConfig?.openGraphImage
+  ? GetImage(siteConfig?.openGraphImage)
+  : defaultOG.src;
   return (
     <>
       {posts && siteConfig && (
