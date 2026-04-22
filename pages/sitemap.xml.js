@@ -9,9 +9,8 @@ export default function Sitemap() {
 
 export async function getServerSideProps({ res }) {
   try {
-    const posts = await getClient(false).fetch(pathquery);
-    const safePosts = Array.isArray(posts) ? posts : [];
-
+	const posts = [];    
+	const safePosts = Array.isArray(posts) ? posts : [];
     const urls = [`${siteUrl}/`, `${siteUrl}/archive`];
 
     safePosts
