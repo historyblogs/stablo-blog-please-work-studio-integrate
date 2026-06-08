@@ -1,0 +1,32 @@
+---
+import PageLayout from '~/layouts/PageLayout.astro';
+---
+
+<PageLayout metadata={{ title: 'Search — RIP Los Angeles' }}>
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <div class="max-w-3xl mx-auto px-6 py-12 sm:py-16 lg:py-20">
+    <h1 class="text-4xl md:text-5xl font-bold font-heading leading-tighter tracking-tighter mb-8">Search</h1>
+    <div id="search"></div>
+  </div>
+  <script is:inline>
+    function initSearch() {
+      const el = document.getElementById('search');
+      if (!el) return;
+      el.innerHTML = '';
+      if (window.PagefindUI) {
+        new window.PagefindUI({ element: '#search', showImages: true, excerptLength: 15 });
+      } else {
+        const s = document.createElement('script');
+        s.src = '/pagefind/pagefind-ui.js';
+        s.onload = () => new window.PagefindUI({ element: '#search', showImages: true, excerptLength: 15 });
+        document.head.appendChild(s);
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSearch);
+    } else {
+      initSearch();
+    }
+    document.addEventListener('astro:page-load', initSearch);
+  </script>
+</PageLayout>

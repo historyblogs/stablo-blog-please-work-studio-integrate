@@ -1,0 +1,46 @@
+---
+publishDate: 2023-09-23T21:09:30.225Z
+title: "1449-51 Echo Park Ave"
+image: ~/assets/images/blog/1449-51-echo-park-ave-01.webp
+author: "Nathan Marsak"
+excerpt: "Charles Wiggers built 1449–51 Echo Park Avenue in early 1914. A century later, a giant view-blocking rectangle is slated to land dead-center in a block of irreplaceable vintage charm."
+location: 1449-echo-park-avenue
+metadata:
+  canonical: https://www.riplosangeles.com/post/1449-51-echo-park-ave
+---
+
+Here’s 1449-51 Echo Park Avenue. Built by Charles Wiggers in early 1914.
+
+
+
+![1449-51 Echo Park Ave](~/assets/images/blog/1449-51-echo-park-ave-02.webp)
+
+![1449-51 Echo Park Ave — photograph 2](~/assets/images/blog/1449-51-echo-park-ave-03.webp)
+
+Echo Park Ave. as it stretches north is a time machine of one-story houses and vintage two-story apartments.  Just for fun let's look both ways up and down the street:
+
+
+
+![1449-51 Echo Park Ave — photograph 3](~/assets/images/blog/1449-51-echo-park-ave-04.webp)
+
+
+
+![1449-51 Echo Park Ave — photograph 4](~/assets/images/blog/1449-51-echo-park-ave-05.webp)
+
+Naturally, dead-center in the block, they’re gonna put this thing, a giant view-blocking rectangle, three times as high as anything remotely in the vicinity:
+
+
+
+![1449-51 Echo Park Ave — photograph 5](~/assets/images/blog/1449-51-echo-park-ave-06.webp)
+
+
+
+![1449-51 Echo Park Ave — photograph 6](~/assets/images/blog/1449-51-echo-park-ave-07.webp)
+
+This actually went to appeal, because neighbors objected to the eight-unit density bonus and one-story height increase above zoning laws, and City Planning just laughed.  Kenihan Development, developers from Marina Del Rey building the thing, laughed so loud you could hear them from Cast & Plow.
+
+![1449-51 Echo Park Ave — photograph 7](~/assets/images/blog/1449-51-echo-park-ave-08.webp)
+
+56-feet, 27 units, with commercial at the bottom.
+
+Hey, you get what you vote for.  Despite Cedillo being demonstrably terrible regarding everything, an identical project across the street was shot down by him; *this* one was rubber stamped under Terrible O'Farrell, who I guess therefore beats Cedillo in the Terrible Olympics.

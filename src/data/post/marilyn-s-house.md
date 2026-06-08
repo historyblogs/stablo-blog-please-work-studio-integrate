@@ -1,0 +1,84 @@
+---
+publishDate: 2023-09-06T19:44:49.723Z
+title: "Marilyn's House!"
+image: ~/assets/images/blog/marilyn-s-house-01.webp
+author: "Nathan Marsak"
+excerpt: "An update on the ownership mystery surrounding Marilyn Monroe's former Brentwood home — a striking 1929 Spanish house at 12305 Fifth Helena Drive with a demolition permit and a very secretive new owner."
+location: 12305-5th-helena-drive
+metadata:
+  canonical: https://www.riplosangeles.com/post/marilyn-s-house
+---
+
+**UPDATE ON THE PROPERTY OWNERSHIP of 21305 West 5th Helena Drive**
+
+That update being *no*, I don’t know who owns it. Apparently, *no-one on earth is privy to that information*, it being a state secret on par with Project Greek Island. But the plot has taken a turn, which I share with you now:
+
+It has been my contention that Monroe’s former home is owned by Daniel C. Lukas—founder of the billion-dollar private equity firm Emerald Lake Capital Management—and his wife Anne Jarmain; they purchased the house in 2017. Lukas and Jarmain manage a company called Glory of the Snow LLC. Two months ago, Glory of the Snow LLC sold and transferred the property into a Trust, called Glory of the Snow Trust, whose address is 12305 5th Helena Drive. The Trustee of that trust is named Andrew Schure (not Sahure, which I wrote below, and has been stated in the [*Los Angeles Times*](https://www.latimes.com/entertainment-arts/story/2023-09-07/marilyn-monroes-home-is-set-to-be-demolished-the-internet-blames-a-monroe-lookalike-and-brentwood-hopes-to-save-it)). Schure holds and administers the property for a third party, whom I logically assumed was Glory of the Snow LLC, in that it is common for Trusts to own LLCs, which involves liability protection, estate planning (avoiding probate most often), and a bevy of other legal whatnot I won’t go into. Most noticeably, both LLC and Trust are named “Glory of the Snow,” a rather arcane reference to a Turkish bulb flower (if this were the 1970s, I would presume snow was a winking reference to cocaine). A shot of the Grant Deed:
+
+![Marilyn's House!](~/assets/images/blog/marilyn-s-house-02.webp)
+
+*Not so fast*, say PR representatives for Lukas and Jarmain, who contacted me. According to Lukas and Jarmain's people, they and their Glory of the Snow LLC, are, contrary to what anyone may believe, in fact *not* the beneficiaries of the Glory of the Snow Trust.  In fact, Lukas and Jarmain *have no connection whatsoever* to said Trust. Yes, the Trust and the LLC use the same obscure botanical name for their holding company, but nevertheless, please be advised the Lukas/Jarmain Glory of the Snow LLC has *zero* connection with, *no* ownership of, *nor any* relationship to, the Glory of the Snow Trust. (They also want you to know that during their 2017-2023 ownership, Lukas & Jarmain did not do any kitchen/bathroom renovations or room additions, so stop blaming them for that too!)
+
+Now, not wishing to besmirch the former owners, should they be innocent and who are innocent until proven guilty, I’m going to err on the side of caution and retract all previous statements about Lukas/Jarmain owning the house.
+
+So who *does* own the house? Not Andrew Schure; he’s merely acting as Trustee for a third party beneficiary. The name of whom is shrouded in mystery. It’s a riddle wrapped in mystery inside an enigma, like the man said.
+
+There has been no small amount of conjecture that this whole kerfuffle is the work of the adjacent property owner who wishes to expand his lot. Financial manager Keyhan Ghotbi purchased the neighboring house, 316 South Carmelina—a 2,000sf house built in 1948—and tore it down in 2018, replacing it with a new 4,957sf structure, plus detached garage. 
+
+![Marilyn's House! — photograph 2](~/assets/images/blog/marilyn-s-house-03.webp)
+
+Because the new house takes up so much of the lot, speculation is Ghotbi bought the Monroe house to tear it down and have a nice new backyard— 
+
+![Marilyn's House! — photograph 3](~/assets/images/blog/marilyn-s-house-04.webp)
+
+—or so runs a theory being floated about.
+
+Naturally, yes, there are bloodhounds at work attempting to unravel the Gordian Knot that is the GotS Trust.  Keep checking back here for any and all updates!
+
+
+
+* DEMOLITION PERMIT ISSUED.  If there's tractors on site, hell, the house could be gone by end of day. UPDATE:  *[*Councilperson Park steps up*](https://www.reuters.com/world/us/los-angeles-city-council-acts-spare-marilyn-monroe-house-demolition-2023-09-08/)
+
+
+
+![Marilyn's House! — photograph 4](~/assets/images/blog/marilyn-s-house-05.webp)
+
+
+
+———— ↓ORIGINAL POST ↓ ————
+
+In an RIP-themed twist of fate, as I dove back into the deep end of blogging Los Angeles demolition permits, social media blew up yesterday with news that [12305 Fifth Helena Drive](https://en.wikipedia.org/wiki/12305_Fifth_Helena_Drive)—a lovely 1929 Spanish Colonial hacienda with deep historic ties to Los Angeles, and the world, it being the house Marilyn Monroe bought, lived in, and died in—was going through the early stages of its demolition paperwork.
+
+This was [reported by the New York Post](https://www.msn.com/en-us/lifestyle/home-and-garden/the-only-home-marilyn-monroe-ever-owned-and-where-she-died-faces-demolition/ar-AA1ghLdh), and I saw no small number of people say “well I don’t *liiiiike* the New York Post, so obviously this isn’t real.” I can assure you, it is *quite* real:
+
+![Marilyn's House! — photograph 5](~/assets/images/blog/marilyn-s-house-06.webp)
+
+The question then being, who would *do* such a thing? Internet chatter would have us believe the house is owned by famed Marilyn cosplay/TikTok personality Jasmine Chiswell. However, [Chiswell actually owns a different house](https://www.inman.com/2021/06/03/a-marilyn-monroe-impersonator-lives-in-the-stars-one-time-home/), specifically, a 1938 Mediterranean that Monroe and Joe DiMaggio had rented in the early 1950s (and for the record Chiswell does not in fact own that house; it is owned by her husband’s father). 
+
+Rather, Monroe’s former home at 12305 Fifth Helena, the only home Monroe ever bought, is owned by Glory of the Snow LLC, a company that [purchased the house in May 2017](https://la.curbed.com/2017/4/20/15378310/marilyn-monroe-brentwood-house-for-sale) but went defunct in 2020, and yet sold the house a month ago to itself, specifically to whom we presume must be the LLC majority shareholder, a man named Andrew Sahure (though a Google search doesn’t turn up *anything* on such a person).
+
+
+
+![Marilyn's House! — photograph 6](~/assets/images/blog/marilyn-s-house-07.webp)
+
+![Marilyn's House! — photograph 7](~/assets/images/blog/marilyn-s-house-08.webp)
+
+![Marilyn's House! — photograph 8](~/assets/images/blog/marilyn-s-house-09.webp)
+
+The prospect of losing such an important shared cultural referent as 12305 is staggering. Not only is the structure itself wonderful, but it remains remarkably intact since Monroe’s death there in August 1962.
+
+![Marilyn's House! — photograph 9](~/assets/images/blog/marilyn-s-house-10.webp)
+
+![Marilyn's House! — photograph 10](~/assets/images/blog/marilyn-s-house-11.webp)
+
+![Marilyn's House! — photograph 11](~/assets/images/blog/marilyn-s-house-12.webp)
+
+![Marilyn's House! — photograph 12](~/assets/images/blog/marilyn-s-house-13.webp)
+
+![Marilyn's House! — photograph 13](~/assets/images/blog/marilyn-s-house-14.webp)
+
+If you’re reading this blog then I’d wager you are suitably fed up with those who would destroy our shared history. You look on in horror as local government gives handouts to developers who run roughshod over our communities, while we stand by feeling helpless. It’s very important to advocate for threatened structures in your community, and if you’ve never done so, here’s a good chance to start the practice. I know, Brentwood is very likely not *your* community, but Marilyn is important to all Angelenos, and heck, is beloved by the world. L.A. doesn’t have the best reputation when it comes to retaining and maintaining our heritage, so, how about we not embarrass ourselves on the world stage *again*, ok?
+
+A good start, then: write an email—*now*—to Council District 11, who have the power to involve Office of Historic Resources about getting the structure made a Historic Cultural Monument. The [Conservancy suggests writing Traci Park directly](https://www.facebook.com/photo?fbid=610113867993853&set=pb.100069857366545.-2207520000); my initial thought was to, rather, send emails to CD11 Planning Deputy Jeff Khau, who will be running point on the matter.  However, I just got off the phone with a Park field deputy, Sean Silva. He is one of those painfully rare, first-rate, super-competent civil servants who knows how to navigate the interstices of government. I told him he might be receiving some emails from y’all, and he said *bring ‘em on*, I’ll make sure they get in the proper hands. His address is sean.silva@lacity.org .
+
+And so, with a little luck and a lot of perseverance, we might save this lovely home yet, and Marilyn will look down on us with love and gratitude.

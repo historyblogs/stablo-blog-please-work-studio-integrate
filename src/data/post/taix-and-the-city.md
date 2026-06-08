@@ -1,0 +1,36 @@
+---
+publishDate: 2020-05-26T03:32:00.000Z
+title: "Taix and the City"
+excerpt: "So you may remember my “Everything You Always Wanted to Know About Taix* (*But Were Afraid to Ask)” post from September. Of course, since you read this blog, you’ve probably already seen the recently-"
+image: ~/assets/images/blog/taix-and-the-city-01.webp
+author: "Nathan Marsak"
+location: 1911-west-sunset-boulevard
+metadata:
+  canonical: https://www.riplosangeles.com/post/taix-and-the-city
+---
+
+So you may remember my “Everything You Always Wanted to Know About Taix (But Were Afraid to Ask)” [post from September](https://www.riplosangeles.com/lets-talk-about-taix/). Of course, since you read this blog, you’ve probably already seen the recently-released renderings of Taix’s forthcoming replacement, but I would be remiss in my duties were I not to make mention of them here. So. Remember what I said in September’s post about how you’d have to have a dead soul to not be charmed by Taix’s faux-French village vernacular? Well, you’d have to be born with *no* soul to love this:
+
+
+
+![Taix and the City](~/assets/images/blog/taix-and-the-city-02.webp)
+
+> A magical pairing of dirty stucco and mustard-beige
+
+Missed Taix? It’s over there:
+
+
+
+![Taix and the City — photograph 2](~/assets/images/blog/taix-and-the-city-03.webp)
+
+> No no, down there, next to my favorite shop, Retail
+
+Now I’m not implying that the good people at Togawa-Smith-Martin have no souls. I’m sure they cast reflections in mirrors and _everything_. It’s just that those people who get hot for their “brown stack o’ boxes with metal parts and some balconies” [style](http://www.tsminc.com/projects/garey-building/), *those* people I worry about. But such people don’t exist, I hear you say, and you are correct. Even the Curbed commenters, wetting themselves with glee over the destruction of Taix, admit that this blah-dern blandmark embarrasses the lot of us. They also admit that the new Taix will not succeed; without the charm of its architecture, and the ambience of its interior, it will fail worse than the French agricultural harvest of 1788. And we all know how that turned out.
+
+
+
+![Taix and the City — photograph 3](~/assets/images/blog/taix-and-the-city-04.webp)
+
+> Dear Lord I fell asleep just posting a picture of it. It’s like the Colin Robinson of architecture.
+
+What, then? Are we resigned to her destruction? Perhaps not. There is, after all, Les Amis de Taix, dedicated to her retention and preservation (their petition [is here](https://www.change.org/p/save-taix-french-restaurant)). Esotouric has a [fascinating theory](https://esotouric.substack.com/p/shock-horror-developers-beg-as-los) that Holland Group purposely turned the destruction and resurrection of Taix into a trainwreck just to sink the project, a big fat write-off as we head into an economic slowdown being, you know, better than nothing. But, I hear you say, you can’t possibly want to stop a project like this, because *housing!* Oh you and your bizarre strange-bedfellow propaganda from Billionaire Fatcat Developers and best pals Big Government Leftist Ideologues. Who tell us how we’re to live, when they don’t even live here—Clyde Holland lives in Vancouver and Scott Wiener lives in San Francisco (ok, [maybe not](https://www.housinghumanright.org/selling-out-california-scott-wiener-money-ties-to-big-real-estate/) such strange bedfellows). Besides, Holland Residential is famous for illegally Airbnb’ing its units. True, this they have denied and responded by saying “well, our units are rented by corporate clients and THEY Airbnb them, not us!” Yes, well, either way, I’m sure we have therewith ended the housing crisis, and good for all of us. Ultimately, Taix must be destroyed because its architecture connotes “little European village.” It positively _reeks_ of the wholesome and virtuous. It’s not popular to make value judgments extolling the positive aspects of European culture these days: it’s hip as hell to hate on Europe as hard as you possibly can—well, _old_ Europe anyway. God forbid something as simple as some half-timbering might make you meditate on truth, beauty, devotion, tradition; all anathema to the modern world. I’m surprised people aren’t protesting it. And Taix has *whimsy*. Gads, people today sure hate whimsy. (I mean I know millennials are supposed to be a joyless bunch but enough already. Embrace whimsy, ya knuckleheads!) Whither Taix? It’s going to be a strange and fascinating ride…as is everything in this deeply polluted world. For which I have nothing but hope. Stay tuned.

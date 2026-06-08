@@ -1,0 +1,34 @@
+---
+publishDate: 2023-09-03T00:22:13.143Z
+title: "1531 South Sawtelle—Bundy's Lock & Key"
+image: ~/assets/images/blog/1531-south-sawtelle-bundy-lock-and-key-01.webp
+author: "Nathan Marsak"
+excerpt: "Bundy's Lock & Key has called South Sawtelle home since 1947 — and the building itself predates 1905. Both the beloved business and its pre-Victorian structure are headed to the landfill."
+location: 1531-sawtelle-boulevard
+metadata:
+  canonical: https://www.riplosangeles.com/post/1531-south-sawtelle-bundy-lock-and-key
+---
+
+A nifty, ancient part of Sawtelle—once home to [Bundy's Lock & Safe Co., AKA Bundy's Lock & Key](https://bundyslockandsafe.com/) (est. across the street in 1929, and which [moved to this location in 1947](https://sawtelle1897to1950.wordpress.com/about/1929-bundys-lock-key-co/)), is headed to the landfill:
+
+![1531 South Sawtelle—Bundy's Lock & Key](~/assets/images/blog/1531-south-sawtelle-bundy-lock-and-key-02.webp)
+
+![1531 South Sawtelle—Bundy's Lock & Key — photograph 2](~/assets/images/blog/1531-south-sawtelle-bundy-lock-and-key-03.webp)
+
+Now, according to the Assessor's Office, this structure was built in 1915.  I'm gonna go ahead and posit *no*, it's much earlier.  
+
+In the first place, DBS has no records of any purported 1915 build. As we all know, extant DBS records commence with 1905:  thus, with no construction permit on file, it's safe to say this building predates 1905.   Which is overwhelmingly evident given its pre-1900 bracketed eaves. 
+
+But, you know, I'm sure Donghao Li knows better—as he replaces this with one of his Tripalink, [which are wonderful](https://www.reddit.com/r/USC/comments/m02rbq/tripalink_experience/).
+
+And yes, I've [expressed my admiration for Tripalink before](https://www.riplosangeles.com/post/too-ugly-for-a-yimby).  
+
+
+
+Sorry Sawtelle!  Say goodbye to the oldest building in the neighborhood!
+
+![1531 South Sawtelle—Bundy's Lock & Key — photograph 3](~/assets/images/blog/1531-south-sawtelle-bundy-lock-and-key-04.webp)
+
+ 
+
+![1531 South Sawtelle—Bundy's Lock & Key — photograph 4](~/assets/images/blog/1531-south-sawtelle-bundy-lock-and-key-05.webp)

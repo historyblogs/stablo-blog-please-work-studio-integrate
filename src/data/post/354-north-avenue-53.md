@@ -1,0 +1,108 @@
+---
+publishDate: 2022-01-17T03:32:00.000Z
+title: "354 North Avenue 53"
+excerpt: "You know, not everything is about the demolition of our built environment in toto. (Like, say, [the razing of an entire Whittlesey Sometimes it’s more subtle. Over in Highland Park, there’s a house. "
+image: ~/assets/images/blog/354-north-avenue-53-01.webp
+author: "Nathan Marsak"
+location: 354-avenue-53-highland-park
+metadata:
+  canonical: https://www.riplosangeles.com/post/354-north-avenue-53
+---
+
+![354 North Avenue 53](~/assets/images/blog/354-north-avenue-53-01.webp)
+
+> No no, it’s still standing, I’m going to snark about this house in a *different* way today
+
+You know, not everything is about the demolition of our built environment in toto. (Like, say, the [razing of an entire Whittlesey](https://www.riplosangeles.com/an-appeal-to-reason-at-1537-south-wilton-pl/).) Sometimes it’s more subtle.
+
+Over in Highland Park, there’s a house. I confess I’m a _little_ confounded about its background. See, we have it in the permits that Fred C. Coryell (the contractor-builder who designed and built his own house at 225 N Avenue 53, which stood until [replaced by an unusually ugly and depressing building in 1991](https://www.apartments.com/225-north-avenue-53-los-angeles-ca/fdnfb4r/)) built 354 for Asenath Arick “Jane” Copes Phelps, widow of Harlow Jefferson Phelps, in 1909-10. Here’s the Highland Park Ebell meeting in the Phelps’s brand-new house in October 1910:
+
+
+
+![354 North Avenue 53 — photograph 2](~/assets/images/blog/354-north-avenue-53-02.webp)
+
+> Mabel Phelps was 32 in 1910. West Avenue 53 was renamed North Avenue 53 about 1927
+
+
+
+![354 North Avenue 53 — photograph 3](~/assets/images/blog/354-north-avenue-53-03.webp)
+
+> Here’s Mabel hosting folk at the home again in the spring of 1911
+
+And the Phelps clan are listed in the directories from 1910 on. However, this rather odd bit of whatnot pops up in July 1911:
+
+
+
+![354 North Avenue 53 — photograph 4](~/assets/images/blog/354-north-avenue-53-04.webp)
+
+> “Their beautiful home” [replaced by this](https://www.redfin.com/CA/Los-Angeles/5635-Monte-Vista-St-90042/home/7078099)
+
+Which makes no sense, since as far as we know it’s the Phelps’ home. Howard’s obit a year later notes he’s still at 5635 Monte Vista, mind you:
+
+
+
+![354 North Avenue 53 — photograph 5](~/assets/images/blog/354-north-avenue-53-05.webp)
+
+Aaaaanyway, just wanted to give you some early history on the old girl, and point out that her interior remained pretty intact, until hit by the Lowest Common Denominator. It’s the kind of thing you hear a lot about [happening in San Francisco](https://www.marketwatch.com/story/new-tech-money-is-destroying-the-streets-of-san-francisco-2015-06-08). Hey, Los Angeles, I thought we were supposed to be better than *up there*.
+
+
+
+![354 North Avenue 53 — photograph 6](~/assets/images/blog/354-north-avenue-53-06.webp)
+
+> Note the brick fireplace, left, the built-ins, center, and the glass-paned door with glass doorknob leading to the kitchen
+
+
+
+![354 North Avenue 53 — photograph 7](~/assets/images/blog/354-north-avenue-53-07.webp)
+
+> Which is now this, all sterile and "midmod" and “openplan.” Note the original white oak floors were ripped out and replaced with something else, or that may just be the subfloor, which they stained and figured, good enough.
+
+
+
+
+
+![354 North Avenue 53 — photograph 8](~/assets/images/blog/354-north-avenue-53-08.webp)
+
+
+
+![354 North Avenue 53 — photograph 9](~/assets/images/blog/354-north-avenue-53-09.webp)
+
+> Yep, better spray those windowsills and baseboard white, except the part you paint black, how delightfully, um, Craftsman
+
+Carlos Ascencio, a realtor-flipper who works for ReMax, bought the place in February 2021 and got a permit to remodel the kitchens/bathrooms, but then, knowing the City would never check, ripped out interior walls and sprayed the whole thing.
+
+
+
+![354 North Avenue 53 — photograph 10](~/assets/images/blog/354-north-avenue-53-10.webp)
+
+When the permit said “*no structural changes*” I’m sure blowing out a load-bearing wall falls under that, um, sorta.  Good luck in the next earthquake, 354!
+
+![354 North Avenue 53 — photograph 11](~/assets/images/blog/354-north-avenue-53-11.webp)
+
+ 
+
+
+
+![354 North Avenue 53 — photograph 12](~/assets/images/blog/354-north-avenue-53-12.webp)
+
+> They didn’t paint over the river rock, I’ll give ’em that much
+
+Ascencio/ReMax bought it in February 2021 for $850,000. Blew out the dining room to make a “great room” and sprayed the whole place white. Sold it December for $1,500,000. Made $650,000 with $3000 in new kitchen appliances and a *whole* lot of cheap white paint. Not a bad racket.
+
+The whole rip-it-out spray-it-white reminds me of cultural terrorist Jorge Cuevo, who raped the Pig’N Whistle on Hollywood Blvd. According [to this](https://www.instagram.com/p/CWcO1I3poNH/), he intends to do it to 200 restaurants *to start*.
+
+
+
+![354 North Avenue 53 — photograph 13](~/assets/images/blog/354-north-avenue-53-13.webp)
+
+According to [https://www.lataco.com/mr-tempo-mocks-pig-n-whistle](https://www.lataco.com/mr-tempo-mocks-pig-n-whistle) it seems Mr. Cueva finds it appropriate to return the generosity and good fortune found in his adopted country—Los Angeles *specifically*—with destroying our unique cultural history. This he [does without permits](https://www.lataco.com/pig-whistle-destruction-mr-tempo/), because why would rules apply to *him*—he has [a red hat](https://www.instagram.com/p/CXrs_grPb9r/)!
+
+
+
+![354 North Avenue 53 — photograph 14](~/assets/images/blog/354-north-avenue-53-14.webp)
+
+
+
+![354 North Avenue 53 — photograph 15](~/assets/images/blog/354-north-avenue-53-13.webp)
+
+And that's that.

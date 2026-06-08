@@ -1,0 +1,27 @@
+---
+publishDate: 2020-03-17T01:18:00.000Z
+title: "The Cranky Preservationist in Don’t F— With My Bunker Hill Retaining Wall (episode 25)"
+excerpt: "Architectural historian Nathan Marsak loves Los Angeles, and hates to see important buildings neglected and abused, whether by slumlord owners or the savage public. Follow him on his urban adventures "
+image: ~/assets/images/blog/the-cranky-preservationist-in-don-t-f-with-my-bunker-hill-retaining-wall-episode-25-01.webp
+author: "Nathan Marsak"
+location: 401-s-olive-street
+metadata:
+  canonical: https://www.riplosangeles.com/post/the-cranky-preservationist-in-don-t-f-with-my-bunker-hill-retaining-wall-episode-25
+---
+
+[**Watch Episode #25**](https://youtu.be/WtAXhdiSNqg)
+
+Architectural historian Nathan Marsak loves Los Angeles, and hates to see important buildings neglected and abused, whether by slumlord owners or the savage public. Follow him on his urban adventures as he sees something that looks like crap, opens his yap and spontaneously lets you know exactly why this place matters.
+
+Episode 25 finds Nathan on old Bunker Hill, a once charming neighborhood of Victorian mansions turned rooming houses, wrecked in a moronic mid-century redevelopment scheme. But the development agency missed a spot, and failed to demolish the fine limestone ashlar retaining wall that was built to support John C. Austin’s Fremont Hotel (1902-1954).
+
+And that well-built wall did what well-built walls do for 118 years, at least until some jackass spray-painted it black a few weeks back. The Cranky Preservationist public policy crew reached out to AT&T (the owner of the parking lots separated by the wall), to the graffiti abatement company under contract to the city, and to the famously recalcitrant office of Councilman Jose Huizar. Nobody cared, or expressed any interest in bringing in a skilled stone cleaning crew to strip the paint and restore the wall.
+
+So imagine Nathan’s burning rage when he returned to at the southwest corner of Fourth and Olive Streets and discovered some well-meaning nincompoop had “cleaned up” the offending black spray paint by coating the historic stones with an additional layer of WHITE paint. You don’t have to imagine it, because Nathan’s entire temper tantrum, including calls for human rights violations and a gratuitous shout out to Teddy Roosevelt, was caught on tape. Tune in for a glimpse of a Cranky Preservationist’s dark side, and a desperate plea that the last bit of old Bunker Hill infrastructure is properly restored—before it’s too late!
+
+For everything you ever wanted to know about lost Bunker Hill, but were afraid to ask, visit our original time travel blog and stay tuned for Nathan’s upcoming book.
+
+
+If you like these Cranky Preservationist videos, you’ll probably like Nathan’s R.I.P. Los Angeles blog, too, so check it out!
+
+Where will the Cranky Preservationist turn up next? Stay tuned!

@@ -1,0 +1,62 @@
+---
+publishDate: 2019-09-13T03:23:00.000Z
+title: "The House of Spirits"
+excerpt: "In February 1958, one Mr. Norman Leibow bought Carmen’s Garage (U. J. Gray, 1924) at 1314 Echo Park Avenue. Leibow tore off the front thirty feet facing Echo Park and rebuilt it"
+image: ~/assets/images/blog/the-house-of-spirits-01.webp
+author: "Nathan Marsak"
+location: 1314-echo-park-avenue
+metadata:
+  canonical: https://www.riplosangeles.com/post/the-house-of-spirits
+---
+
+In February 1958, one Mr. Norman Leibow bought Carmen’s Garage (U. J. Gray, 1924) at 1314 Echo Park Avenue. Leibow tore off the front thirty feet facing Echo Park and rebuilt it, converting the whole works into the House of Spirits.
+
+To advertise his new venture, Leibow called up Mueller Brothers Neon Company of 1229 West Sunset, and had this $1000 sign erected in March of 1958:
+
+
+
+![The House of Spirits](~/assets/images/blog/the-house-of-spirits-01.webp)
+
+> [Yelp](https://www.yelp.com/biz/house-of-spirits-los-angeles)
+
+
+
+
+
+![The House of Spirits — photograph 2](~/assets/images/blog/the-house-of-spirits-02.webp)
+
+> Thomas Hawk via  [Flickr](https://www.flickr.com/photos/thomashawk/6907481346/)
+
+Two months later, to the tune of $1200, Leibow had Mueller Brothers construct this roof sign:
+
+
+
+![The House of Spirits — photograph 3](~/assets/images/blog/the-house-of-spirits-03.webp)
+
+> Mark Peacock via  [Flickr](https://www.flickr.com/photos/7623944@N03/4182335604/in/photolist-7nzyEy)
+
+
+
+
+
+![The House of Spirits — photograph 4](~/assets/images/blog/the-house-of-spirits-04.webp)
+
+[RoadsideArchitecture.com](http://www.roadarch.com/signs/cala4.html) 
+
+Yes, it’s a quaint little cottage (hey, like the kind we used to have in Los Angeles!) with a wonky-donk chimney puffing out animated smoke. With a sunset behind, or maybe that’s a rising orange moon? It may be the greatest sign in Los Angeles, which would therefore make it the greatest sign in the world. (Why, of course there’s [an image of it](https://live.staticflickr.com/65535/48723891311_60ce29316e_o.jpg) in [my book](https://www.schifferbooks.com/los-angeles-neon-1410.html).) [Here](https://vimeo.com/14548833) is a time lapse of HOS on any given night. Any given night some nights ago, anyway.
+
+Because the House of Spirits went up in flames [one morning, in a rainstorm](https://twitter.com/Silverlake_Pete/status/1070742427437215745), about nine months ago. We were all waiting for her reopen because it appeared the fire was contained to the back and the neon was undamaged.
+
+
+
+
+
+![The House of Spirits — photograph 5](~/assets/images/blog/the-house-of-spirits-05.webp)
+
+But, no. According to this fellow Mr. Leff, the newly-listed property is Tier 3 TOC (Transit Oriented Communities), which means, because it’s a half-mile from some bus stop, the developer can add two additional stories for up to twenty-two additional feet, increase density by 70%, reduce parking to half a spot per resident, decrease the setback 30%, and on and on. This thing is going to be three times as big as anything within miles. Of course the screeching schoolgirls for density have begun [wetting themselves with glee and calling everyone the N-word](https://la.curbed.com/2019/9/12/20862778/house-of-spirits-for-sale-development-echo-park#comments), because what else is new.
+
+You know what disqusted over at Curbed wants for you? The deleterious effects of high-density living seen in [mental illness, children’s health, respiratory disease, heart attacks, cancer and human happiness](http://www.newgeography.com/content/003945-health-happiness-and-density).
+
+That, and no cool neon signs.
+
+-[ Echo Park Ave.](https://www.google.com/maps/search/?api=1&query=34.07722,-118.25685)

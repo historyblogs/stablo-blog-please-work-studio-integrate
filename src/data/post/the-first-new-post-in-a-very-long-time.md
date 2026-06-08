@@ -1,0 +1,29 @@
+---
+publishDate: 2023-08-06T01:54:53.845Z
+title: "The First New Post in a Very Long Time"
+image: ~/assets/images/blog/the-first-new-post-in-a-very-long-time-01.webp
+author: "Nathan Marsak"
+excerpt: "Nathan Marsak returns to RIP Los Angeles after an absence — having been 'abducted by evil developers' — to find the destruction of Los Angeles's architectural heritage very much ongoing."
+metadata:
+  canonical: https://www.riplosangeles.com/post/the-first-new-post-in-a-very-long-time
+---
+
+Greetings, my friends.  
+
+
+
+It is good to be back.  I was abducted by evil developers and tossed into their underground lair, in an effort to prevent me from telling truth to power, whatever that is.
+
+
+
+There is much to do.
+
+
+
+Stay tuned,
+
+
+
+Nathan
+
+![Los Angeles street scene](~/assets/images/blog/the-first-new-post-in-a-very-long-time-02.webp)

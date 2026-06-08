@@ -1,0 +1,91 @@
+---
+publishDate: 2023-09-24T23:53:12.542Z
+title: "1346 & 1332 North Fairfax"
+image: ~/assets/images/blog/1346-and-1332-north-fairfax-01.webp
+author: "Nathan Marsak"
+excerpt: "Three 1919 storybook cottages on North Fairfax — the kind that could have stepped out of a fairy tale — are coming down to make way for something considerably less enchanting."
+location: 1346-north-fairfax-avenue
+metadata:
+  canonical: https://www.riplosangeles.com/post/1346-and-1332-north-fairfax
+---
+
+On North Fairfax there was this strip of three houses, from (left to right) 1358, 1354, and 1346:
+
+![1346 & 1332 North Fairfax](~/assets/images/blog/1346-and-1332-north-fairfax-02.webp)
+
+Hey!  Down here! I’m 1358! I was built in 1919. I’m kinda storybook!
+
+
+
+![1346 & 1332 North Fairfax — photograph 2](~/assets/images/blog/1346-and-1332-north-fairfax-03.webp)
+
+Hi! I’m 1354! I was *also* built in 1919! Do I remind you of the French countryside?
+
+![1346 & 1332 North Fairfax — photograph 3](~/assets/images/blog/1346-and-1332-north-fairfax-04.webp)
+
+Gosh, what’s that noise?
+
+
+![1346 & 1332 North Fairfax — photograph 4](~/assets/images/blog/1346-and-1332-north-fairfax-05.webp)
+
+AUUUUGHHhhhhh! hhch… urg…
+
+Which just leaves the one next door to the south at 1346—
+
+
+![1346 & 1332 North Fairfax — photograph 5](~/assets/images/blog/1346-and-1332-north-fairfax-06.webp)
+
+
+
+
+![1346 & 1332 North Fairfax — photograph 6](~/assets/images/blog/1346-and-1332-north-fairfax-07.webp)
+
+Built by George E. Shelton Co. in late 1919, for the [actor Jack Mulhall](https://en.wikipedia.org/wiki/Jack_Mulhall). It’s where Mulhall’s wife committed suicide! 
+
+
+![1346 & 1332 North Fairfax — photograph 7](~/assets/images/blog/1346-and-1332-north-fairfax-08.webp)
+
+So, were you to demolish this house, Laura Mulhall's ghost would be royally pissed you destroyed her residence of the last 102 years, and will undoubtedly eat your soul. 
+
+Oh well! It must go, and developers have no souls to eat anyway! 
+
+And, remember that recent development pictured above, which ate up 1346’s cute friends? *Three* stories? Ha! *Sooooo* 2019…amateur hour! *This* is 2023, we’re going to have FOUR stories!
+
+Sure, the area is zoned R-1, but that’s just ZONING LAW. Which means literally, and I do mean literally, less than nothing. Single family zoning, hell—this will be 26 apartments with ZERO ON-SITE PARKING. Yay!
+
+Behold, the forthcoming 1346 North Fairfax:
+
+![1346 & 1332 North Fairfax — photograph 8](~/assets/images/blog/1346-and-1332-north-fairfax-09.webp)
+
+But wait…it gets *better*! Three doors down, at 1332 N Fairfax, they’re tearing down ANOTHER little 1919 house to bring you….THE SAME THING.
+
+![1346 & 1332 North Fairfax — photograph 9](~/assets/images/blog/1346-and-1332-north-fairfax-10.webp)
+
+
+No, really, they’re going to build *two* matching boxes, totalling 52 new apartments, with zero parking, and *lots* of greige.
+
+
+
+![1346 & 1332 North Fairfax — photograph 10](~/assets/images/blog/1346-and-1332-north-fairfax-11.webp)
+
+Oh, and to tear down 1332—
+
+![1346 & 1332 North Fairfax — photograph 11](~/assets/images/blog/1346-and-1332-north-fairfax-12.webp)
+
+—means *tearing down the lifelong home of Mary Philbin*. From where she was almost kidnapped in 1925!
+
+
+![1346 & 1332 North Fairfax — photograph 12](~/assets/images/blog/1346-and-1332-north-fairfax-13.webp)
+
+
+Mary Philbin purchased 1332 North Fairfax and lived there the rest of her life ([her Wiki page](https://en.wikipedia.org/wiki/Mary_Philbin) quite incorrectly states she was a recluse in Huntington Beach; and yet Wiki's footnote therefrom links to a source stating she was a recluse for the rest of her life at *this house on Fairfax*—ah, Wikipedia! so delightfully useless—she died in Huntington Beach because she was put in a rest home near the end of her life, at age 90). Mary’s mother Blanche died in this house in 1934; her father John Philbin died in the house in 1948.  Read more about her and her house, [here](https://makemagazine.co.uk/issue/cover-the-discovery-issue/silent-eerie-star/).
+
+![1346 & 1332 North Fairfax — photograph 13](~/assets/images/blog/1346-and-1332-north-fairfax-14.webp)
+
+![1346 & 1332 North Fairfax — photograph 14](~/assets/images/blog/1346-and-1332-north-fairfax-15.webp)
+
+![1346 & 1332 North Fairfax — photograph 15](~/assets/images/blog/1346-and-1332-north-fairfax-16.webp)
+
+But why let a little Hollywood history interfere with the bulldozers and backhoes? YIMBYs hate Hollywood history almost as much as they hate trees! (Well, *almost*.)  The YIMBY hates Hollywood history specifically because it makes Los Angeles special, unique.  YIMBYs won't be satisfied until we are one homogenous apartment-scape of perpetual renters in identical beige boxes in Newark, Houston, Youngstown, Jacksonville, Albuquerque, and here in our beloved Los Angeles.
+
+But that's what they want, so that's what we get.  Why?

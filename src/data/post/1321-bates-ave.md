@@ -1,0 +1,72 @@
+---
+publishDate: 2023-09-20T19:05:17.572Z
+title: "1321 Bates Ave."
+image: ~/assets/images/blog/1321-bates-ave-01.webp
+author: "Nathan Marsak"
+excerpt: "A wooded 1907 cottage on Bates Avenue — the kind of house a kid walks past on the way to Thomas Starr King — has a demolition permit and nowhere to go."
+location: 1321-bates-avenue
+metadata:
+  canonical: https://www.riplosangeles.com/post/1321-bates-ave
+---
+
+Now, this one I take personally.  
+
+My boy went to Thomas Starr King Middle School.  Thus there was no lack of time spent on Bates Avenue, picking him up, parking for a school play, etc.
+
+
+
+![1321 Bates Ave.](~/assets/images/blog/1321-bates-ave-02.webp)
+
+I always admired this little house.  So calm and wooded, it was like the Shire.  
+
+I suspect I'm not the only one who would enjoy this sylvan property, with its arboreal setting and multiple structures.  I could live with my family in the front house, and then go putter in the shed; my wife could run her business from the back house, while my boy turned the *other* shed into his man-cave.  We'd barbeque and put on plays in the yard and then I'd rake up the pine needles while wearing a cardigan.  I know that the average idea of heaven is, I dunno, having a million followers watch you snorting ket with Luh Tylyer, but I'm gonna go rake pine needles.  Call me old fashioned.  It wouldn't be the first time.  
+
+
+
+![1321 Bates Ave. — photograph 2](~/assets/images/blog/1321-bates-ave-03.webp)
+
+
+
+![1321 Bates Ave. — photograph 3](~/assets/images/blog/1321-bates-ave-04.webp)
+
+Anyway, if you're on this site, then you know where this is going.  I'll let the pictures speak for themselves.  
+
+
+
+![1321 Bates Ave. — photograph 4](~/assets/images/blog/1321-bates-ave-05.webp)
+
+
+
+![1321 Bates Ave. — photograph 5](~/assets/images/blog/1321-bates-ave-06.webp)
+
+
+
+![1321 Bates Ave. — photograph 6](~/assets/images/blog/1321-bates-ave-07.webp)
+
+
+
+![1321 Bates Ave. — photograph 7](~/assets/images/blog/1321-bates-ave-08.webp)
+
+
+
+![1321 Bates Ave. — photograph 8](~/assets/images/blog/1321-bates-ave-02.webp)
+
+One day, this happened—
+
+
+
+![1321 Bates Ave. — photograph 9](~/assets/images/blog/1321-bates-ave-09.webp)
+
+*Beside clear-cutting the bosky property, I'm especially amused that they destroyed one of these amazing street trees, because it was too close to their precious precious driveway, which somehow wasn't a problem with the old driveway*
+
+
+
+![1321 Bates Ave. — photograph 10](~/assets/images/blog/1321-bates-ave-10.webp)
+
+
+
+![1321 Bates Ave. — photograph 11](~/assets/images/blog/1321-bates-ave-11.webp)
+
+Ah yes, much improved.  I'm certainly glad, knowing Scott Wiener sleeps better, our having been saved from the evils of the home and hearth.
+
+*Most of the images on this post I stole from *[*here*](https://listingzen.com/property/6663)

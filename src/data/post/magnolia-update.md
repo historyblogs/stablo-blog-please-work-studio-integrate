@@ -1,0 +1,45 @@
+---
+publishDate: 2019-10-05T02:47:00.000Z
+title: "Magnolia Update"
+excerpt: "I had based my tale of 1238 on the application at Planning for the 36-unit that was being plopped on the site; the demo permit I linked to in the text was issued back in July. Was contacted by an 
+"
+image: ~/assets/images/blog/magnolia-update-01.webp
+author: "Nathan Marsak"
+location: 1238-magnolia-avenue
+metadata:
+  canonical: https://www.riplosangeles.com/post/magnolia-update
+---
+
+I had based my tale of 1238 on the application at Planning for the 36-unit that was being plopped on the site; the demo permit I linked to in the text was issued back in July. Was contacted by an area resident to inform me the house was already gone.
+
+
+
+![Magnolia Update](~/assets/images/blog/magnolia-update-01.webp)
+
+
+
+![Magnolia Update — photograph 2](~/assets/images/blog/magnolia-update-02.webp)
+
+> The black box replacing these two will be taller than that Canary Island Date Palm
+
+
+
+
+
+![Magnolia Update — photograph 3](~/assets/images/blog/magnolia-update-03.webp)
+
+And its wonderful neighbor reduced to this. Because _density über alles_.
+
+And of this one up at the corner—
+
+
+
+![Magnolia Update — photograph 4](~/assets/images/blog/magnolia-update-04.webp)
+
+
+
+![Magnolia Update — photograph 5](~/assets/images/blog/magnolia-update-05.webp)
+
+I will say this, though, in defense of their replacements. They will absolutely define our age. In a generation, people will look at their [SimCity/Minecraft](https://www.dmagazine.com/frontburner/2018/12/were-still-trying-to-understand-why-new-apartments-are-so-ugly/) architectonic form and say yep, that’s *2020 in a nutshell*.
+
+And then tear them the hell down.

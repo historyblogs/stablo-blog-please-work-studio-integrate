@@ -1,0 +1,137 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Contact',
+  description: 'Send a message to Nathan Marsak of RIP Los Angeles.',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="max-w-2xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+
+    <div class="text-center mb-10">
+      <p class="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Get in touch</p>
+      <h1 class="text-4xl font-bold font-heading dark:text-white">Contact Nathan</h1>
+      <p class="mt-3 text-lg text-muted dark:text-slate-400">
+        Tips on a demolition, a correction, a story idea? Nathan reads every note.
+      </p>
+    </div>
+
+    <!-- Success message (hidden by default) -->
+    <div id="success-msg" class="hidden mb-6 rounded-lg bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 px-6 py-4 text-green-800 dark:text-green-300 text-center">
+      <p class="font-semibold text-lg">Message sent!</p>
+      <p class="text-sm mt-1">Thanks for reaching out. Nathan will be in touch.</p>
+    </div>
+
+    <!-- Error message (hidden by default) -->
+    <div id="error-msg" class="hidden mb-6 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 px-6 py-4 text-red-800 dark:text-red-300 text-center">
+      <p class="font-semibold">Something went wrong.</p>
+      <p class="text-sm mt-1">Please try again or email directly at <a href="mailto:oldbunkerhill@gmail.com" class="underline">oldbunkerhill@gmail.com</a>.</p>
+    </div>
+
+    <form id="contact-form" class="space-y-5">
+
+      <!-- Web3Forms required fields -->
+      <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY_HERE" />
+      <input type="hidden" name="subject" value="[RIP Los Angeles] New contact form message" />
+      <input type="hidden" name="from_name" value="RIP Los Angeles Contact Form" />
+      <!-- Honeypot spam trap -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
+
+      <div>
+        <label for="name" class="block text-sm font-medium mb-1 dark:text-slate-300">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="name"
+          class="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+          placeholder="Your name"
+        />
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium mb-1 dark:text-slate-300">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="email"
+          class="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+          placeholder="your@email.com"
+        />
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-medium mb-1 dark:text-slate-300">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="6"
+          class="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary resize-y"
+          placeholder="Your message..."
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        id="submit-btn"
+        class="w-full rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold px-6 py-3 text-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed"
+      >
+        Send Message
+      </button>
+
+    </form>
+
+    <p class="mt-6 text-center text-sm text-muted dark:text-slate-500">
+      Or email directly: <a href="mailto:oldbunkerhill@gmail.com" class="text-primary hover:underline">oldbunkerhill@gmail.com</a>
+    </p>
+
+  </section>
+</Layout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+  const successMsg = document.getElementById('success-msg') as HTMLElement;
+  const errorMsg = document.getElementById('error-msg') as HTMLElement;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    successMsg.classList.add('hidden');
+    errorMsg.classList.add('hidden');
+
+    const data = Object.fromEntries(new FormData(form));
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      const json = await res.json();
+
+      if (res.ok && json.success) {
+        form.reset();
+        successMsg.classList.remove('hidden');
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        throw new Error(json.message || 'Submission failed');
+      }
+    } catch {
+      errorMsg.classList.remove('hidden');
+      errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+    }
+  });
+</script>

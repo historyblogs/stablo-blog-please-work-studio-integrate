@@ -1,0 +1,107 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+import { findImage } from '~/utils/images';
+
+const metadata = {
+  title: 'About — Nathan Marsak',
+  description: 'Nathan Marsak documents the buildings, neighborhoods, and character of Los Angeles as they disappear one demolition permit at a time.',
+};
+
+const portrait = await findImage('~/assets/images/nathan-marsak.webp');
+
+const SITE = 'https://www.riplosangeles.com';
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Nathan Marsak',
+  url: `${SITE}/about`,
+  description:
+    'Writer and preservationist documenting the buildings, neighborhoods, and character of Los Angeles as they disappear one demolition permit at a time.',
+  sameAs: [
+    'https://twitter.com/riplosangeles',
+    'https://bunkerhilllosangeles.com',
+    'https://onbunkerhill.org',
+    'https://www.riplosangeles.com',
+  ],
+  knowsAbout: ['Los Angeles architecture', 'Historic preservation', 'Urban history', 'Los Angeles history'],
+};
+---
+
+<Layout metadata={metadata}>
+  <script type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+
+    {portrait && (
+      <div class="flex justify-center mb-10">
+        <Image
+          src={portrait}
+          alt="Nathan Marsak"
+          width={720}
+          height={480}
+          class="w-full max-w-2xl rounded shadow-lg object-cover"
+          widths={[480, 720, 960]}
+          sizes="(max-width: 768px) 100vw, 720px"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    )}
+
+    <div class="prose prose-lg dark:prose-invert max-w-none">
+        <h1 class="text-4xl font-bold font-heading mb-6 dark:text-white not-prose">Nathan Marsak</h1>
+
+        <p>
+          NATHAN MARSAK says: "I came to praise Los Angeles, not to bury her. And yet developers, City Hall and social
+          reformers work in concert to effect wholesale demolition, removing the human scale of my town, tossing its
+          charm into a landfill. The least I can do is memorialize in real time those places worth noting, as they
+          slide inexorably into memory.
+        </p>
+
+        <p>
+          In college I studied under Banham. I learned to love Los Angeles via Reyner's teachings (and came to abjure
+          Mike Davis and his lurid, fanciful, laughably-researched assertions). In grad school I focused on visionary
+          urbanism and technological utopianism—so while some may find the premise of preserving communities so much
+          ill-considered reactionary twaddle, at least I have a background in the other side.
+        </p>
+
+        <p>
+          Anyway, I moved to Los Angeles, and began to document. I drove about{' '}
+          <a href="https://amzn.to/2zGEatw" target="_blank" rel="noopener">shooting neon signs</a>. I put endless
+          miles across the Plains of Id on the old Packard as part of the 1947project; when Kim Cooper blogged about
+          some{' '}
+          <a href="http://1947project.blogspot.com/2005/10/are-you-going-to-eat-that.html" target="_blank" rel="noopener">
+            bad lunch meat in Compton
+          </a>
+          , I drove down to there to check on the{' '}
+          <a href="https://www.1947project.com/2005/10/17/augusta-mayo-to-day/" target="_blank" rel="noopener">
+            scene of the crime
+          </a>{' '}
+          (never via freeway—you can't really learn Los Angeles unless you study her from the surface streets).
+        </p>
+
+        <p>
+          But in short order one landmark after another disappeared. Few demolitions are as contentious or high profile
+          as the Ambassador or Parker Center; rather, it is all the little houses and commercial buildings the social
+          engineers are desperate to destroy in the name of the Greater Good. The fabric of our city is woven together
+          by communities and neighborhoods who no longer have a say in their zoning or planning so it's important to
+          shine a light on these vanishing treasures, now, before the remarkable character of our city is wiped away
+          like a stain from a countertop. (But Nathan, you say, it's just this one house—no, it isn't.
+          <em>Principiis obsta, finem respice.</em>) And who knows, one might even be saved. Excelsior!"
+        </p>
+
+        <hr class="my-8 border-gray-200 dark:border-gray-700" />
+
+        <p class="not-prose text-base text-muted dark:text-slate-400">
+          Nathan's blogs:
+          <a href="https://bunkerhilllosangeles.com" target="_blank" rel="noopener"
+            class="font-semibold text-primary hover:underline">Bunker Hill Los Angeles Institute</a>,{' '}
+          <a href="https://www.riplosangeles.com" class="font-semibold text-primary hover:underline">RIP Los Angeles</a>
+          &amp;{' '}
+          <a href="https://onbunkerhill.org" target="_blank" rel="noopener"
+            class="font-semibold text-primary hover:underline">On Bunker Hill</a>.
+        </p>
+      </div>
+  </section>
+</Layout>

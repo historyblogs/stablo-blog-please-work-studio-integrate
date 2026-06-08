@@ -1,0 +1,35 @@
+---
+publishDate: 2019-11-01T01:08:00.000Z
+title: "13921 Vanowen St., Van Nuys"
+excerpt: "The continued abhorrence of anything lo-slung and lo-density requires these be replaced with, as you might imagine, vastly increased height and density, and because density proponents will tell you"
+image: ~/assets/images/blog/13921-vanowen-st-van-nuys-01.webp
+author: "Nathan Marsak"
+location: 13921-vanowen-street-van-nuys
+metadata:
+  canonical: https://www.riplosangeles.com/post/13921-vanowen-st-van-nuys
+---
+
+![13921 Vanowen St., Van Nuys](~/assets/images/blog/13921-vanowen-st-van-nuys-01.webp)
+
+These three little contiguous flats were built by W. P. Short in the fall of ’48. The house in back was constructed in 1954.
+
+
+
+![13921 Vanowen St., Van Nuys — photograph 2](~/assets/images/blog/13921-vanowen-st-van-nuys-02.webp)
+
+> Nice [birds of paradise](https://www.lamag.com/askchris/ask-chris-when-did-the-bird-of-paradise-become-the-official-flower-of-l-a/), too
+
+The continued abhorrence of anything lo-slung and lo-density requires these be replaced with, as you might imagine, vastly increased height and density, and because density proponents will tell you this is “green,” there’s also a massive reduction in green space.
+
+![13921 Vanowen St., Van Nuys — photograph 3](~/assets/images/blog/13921-vanowen-st-van-nuys-03.webp)
+
+
+
+
+![13921 Vanowen St., Van Nuys — photograph 4](~/assets/images/blog/13921-vanowen-st-van-nuys-04.webp)
+
+
+
+![13921 Vanowen St., Van Nuys — photograph 5](~/assets/images/blog/13921-vanowen-st-van-nuys-05.webp)
+
+> And again, not to point out the obvious, but what’s being demolished is four units of low-income, to be replaced by three units of low-income. The fact that the four units being demolished are 3,000sf of low income, and the three units replacing them will likely total about 1500sf, well, it’s more like a reduction not by 1/3 but by 50% . Hooray!

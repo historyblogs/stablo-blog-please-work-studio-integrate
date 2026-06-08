@@ -1,0 +1,96 @@
+{
+  "name": "Blog Post",
+  "fileType": "md",
+  "fmType": "yaml",
+  "folder": "src/data/post",
+  "template": [
+    {
+      "name": "publishDate",
+      "type": "datetime",
+      "label": "Publish Date",
+      "required": true
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "label": "Title",
+      "required": true
+    },
+    {
+      "name": "excerpt",
+      "type": "textarea",
+      "label": "Excerpt",
+      "description": "Short summary shown on blog listings and in search results"
+    },
+    {
+      "name": "image",
+      "type": "text",
+      "label": "Hero Image",
+      "description": "Path to the hero image, e.g. ~/assets/images/blog/my-post-01.webp"
+    },
+    {
+      "name": "category",
+      "type": "text",
+      "label": "Category"
+    },
+    {
+      "name": "tags",
+      "type": "array",
+      "label": "Tags",
+      "default": []
+    },
+    {
+      "name": "author",
+      "type": "text",
+      "label": "Author",
+      "default": "Nathan Marsak"
+    },
+    {
+      "name": "draft",
+      "type": "boolean",
+      "label": "Draft",
+      "description": "Set to true to hide this post from the site",
+      "default": false
+    },
+    {
+      "name": "location",
+      "type": "object",
+      "label": "Location",
+      "description": "Building location — renders a Google Maps embed at the bottom of the post",
+      "fields": [
+        {
+          "name": "address",
+          "type": "text",
+          "label": "Street Address",
+          "description": "Full address shown as text and used as the map search query",
+          "required": true
+        },
+        {
+          "name": "lat",
+          "type": "number",
+          "label": "Latitude",
+          "description": "Decimal latitude for a precise map pin (e.g. 34.0928)"
+        },
+        {
+          "name": "lng",
+          "type": "number",
+          "label": "Longitude",
+          "description": "Decimal longitude for a precise map pin (e.g. -118.3012)"
+        }
+      ]
+    },
+    {
+      "name": "metadata",
+      "type": "object",
+      "label": "SEO Metadata",
+      "fields": [
+        {
+          "name": "canonical",
+          "type": "text",
+          "label": "Canonical URL",
+          "description": "The original URL on riplosangeles.com, e.g. https://www.riplosangeles.com/post/my-slug"
+        }
+      ]
+    }
+  ]
+}

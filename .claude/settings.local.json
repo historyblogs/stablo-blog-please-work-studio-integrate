@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(mv /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/astronautical-azimuth/* /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/)",
+      "Bash(mv /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/astronautical-azimuth/.* /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/)",
+      "Bash(rmdir /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/astronautical-azimuth)",
+      "Bash(mkdir -p /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/assets/images/blog)",
+      "Bash(mkdir -p /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/data/post)",
+      "Bash(python3 *)",
+      "Bash(tee /tmp/migrate_output.txt)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:www.riplosangeles.com)",
+      "Bash(cwebp -version)",
+      "Bash(sips --version)",
+      "Bash(ffmpeg -version)",
+      "Bash(sips --help)",
+      "Bash(sips *)",
+      "Bash(node -e \"const sharp = require\\('sharp'\\); console.log\\(sharp.versions\\)\")",
+      "Bash(node *)",
+      "WebFetch(domain:web3forms.com)",
+      "WebFetch(domain:docs.sitepins.com)",
+      "Bash(pip3 install *)",
+      "Bash(npx astro *)",
+      "Bash(pkill -f \"astro preview\")",
+      "Bash(node_modules/.bin/astro preview *)",
+      "Bash(pkill -f \"astro preview\\\\|astro preview\")",
+      "Bash(xargs -I{} sh -c 'echo \"FILE: {}\" && head -20 {} && echo \"\"')",
+      "Bash(xargs -I{} basename {})",
+      "Bash(~/.nvm/nvm.sh)",
+      "Bash(nvm --version)",
+      "Read(//Users/spinoza/.nvm/versions/node/**)",
+      "WebFetch(domain:sitepins.com)",
+      "Bash(git config *)",
+      "Bash(gh repo *)",
+      "Bash(ssh *)"
+    ]
+  }
+}

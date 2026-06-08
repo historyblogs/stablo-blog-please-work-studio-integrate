@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { fetchPosts } from '~/utils/blog';
+import { getPermalink } from '~/utils/permalinks';
+
+const posts = await fetchPosts();
+const markers = posts
+  .filter((p) => p.location?.lat != null && p.location?.lng != null)
+  .map((p) => ({
+    lat: p.location!.lat!,
+    lng: p.location!.lng!,
+    title: p.title,
+    address: p.location!.address,
+    url: getPermalink(p.permalink),
+  }));
+
+const metadata = {
+  title: 'Map',
+  description: 'Every RIP Los Angeles post, pinned on the map.',
+};
+---
+
+<Layout metadata={metadata}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-3">
+    <h1 class="text-3xl md:text-4xl font-bold font-heading tracking-tight">Map</h1>
+    <p class="mt-1 text-muted dark:text-slate-400 text-sm">
+      {markers.length} locations — click any pin to open the post.
+    </p>
+  </div>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <div id="rip-map" style="height: 75vh; width: 100%;"></div>
+
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script define:vars={{ markers }}>
+    const map = L.map('rip-map');
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    const latLngs = markers.map(({ lat, lng, title, address, url }) => {
+      L.marker([lat, lng])
+        .addTo(map)
+        .bindPopup(
+          `<div style="max-width:240px;line-height:1.4">` +
+          `<b><a href="${url}" style="color:#c0392b;text-decoration:none">${title}</a></b>` +
+          `<br><span style="color:#888;font-size:11px">${address}</span>` +
+          `</div>`,
+          { maxWidth: 260 }
+        );
+      return [lat, lng];
+    });
+
+    if (latLngs.length) {
+      map.fitBounds(latLngs, { padding: [40, 40] });
+    }
+  </script>
+</Layout>

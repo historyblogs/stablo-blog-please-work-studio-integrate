@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+import Layout from '~/layouts/PageLayout.astro';
+import { fetchPosts } from '~/utils/blog';
+
+export const prerender = true;
+
+const allLocations = await getCollection('locations');
+const allPosts = await fetchPosts();
+
+// Build a map of locationSlug → posts
+const postsByLocation: Record<string, typeof allPosts> = {};
+for (const post of allPosts) {
+  if (post.location?.slug) {
+    const s = post.location.slug;
+    if (!postsByLocation[s]) postsByLocation[s] = [];
+    postsByLocation[s].push(post);
+  }
+}
+
+// Sort locations by post count desc, then alphabetically
+const locations = allLocations
+  .map((loc) => ({
+    ...loc,
+    postCount: postsByLocation[loc.id]?.length ?? 0,
+  }))
+  .sort((a, b) => b.postCount - a.postCount || a.data.title.localeCompare(b.data.title));
+
+const metadata = {
+  title: 'Locations',
+  description: 'Every RIP Los Angeles post, organized by address.',
+};
+---
+
+<Layout metadata={metadata}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <h1 class="text-3xl md:text-4xl font-bold font-heading tracking-tight mb-2">Locations</h1>
+    <p class="text-muted dark:text-slate-400 mb-10">
+      {locations.length} addresses — every building documented on this site.
+    </p>
+
+    <ul class="divide-y dark:divide-slate-700">
+      {locations.map((loc) => (
+        <li>
+          <a
+            href={`/locations/${loc.id}/`}
+            class="flex items-center justify-between gap-4 py-4 group hover:bg-slate-50 dark:hover:bg-slate-800/50 -mx-3 px-3 rounded-lg transition-colors duration-150"
+          >
+            <span class="flex items-center gap-2 min-w-0">
+              <Icon name="tabler:map-pin" class="w-4 h-4 text-primary shrink-0" />
+              <span class="font-medium group-hover:text-primary dark:group-hover:text-blue-400 transition-colors duration-150 truncate">
+                {loc.data.title}
+              </span>
+            </span>
+            <span class="text-sm text-muted dark:text-slate-500 shrink-0">
+              {loc.postCount} {loc.postCount === 1 ? 'post' : 'posts'}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>
