@@ -3,6 +3,7 @@ import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
 
+import keystatic from '@keystatic/astro';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
@@ -22,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
+  output: 'hybrid',
 
   integrations: [
     sitemap(),
@@ -66,6 +67,7 @@ export default defineConfig({
     astrowind({
       config: './src/config.yaml',
     }),
+    keystatic(),
   ],
 
   image: {

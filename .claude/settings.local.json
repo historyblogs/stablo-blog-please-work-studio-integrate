@@ -37,7 +37,8 @@
       "WebFetch(domain:sitepins.com)",
       "Bash(git config *)",
       "Bash(gh repo *)",
-      "Bash(ssh *)"
+      "Bash(ssh *)",
+      "WebFetch(domain:keystatic.com)"
     ]
   }
 }
