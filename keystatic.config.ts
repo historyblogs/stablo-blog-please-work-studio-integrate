@@ -36,14 +36,10 @@ export default config({
         category: fields.text({ label: 'Category' }),
         tags: fields.array(fields.text({ label: 'Tag' }), {
           label: 'Tags',
-          itemLabel: (props) => props.fields.value || 'Tag',
         }),
         author: fields.text({ label: 'Author', defaultValue: 'Nathan Marsak' }),
-        content: fields.document({
+        content: fields.mdx({
           label: 'Content',
-          formatting: true,
-          dividers: true,
-          links: true,
           images: {
             directory: 'src/assets/images/blog',
             publicPath: '~/assets/images/blog/',
