@@ -21,6 +21,7 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
+    "@astrojs/react": "^5.0.7",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vercel": "^10.0.8",
@@ -33,6 +34,8 @@
     "astro-seo": "^1.1.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "unpic": "^4.2.2"
   },
   "devDependencies": {
