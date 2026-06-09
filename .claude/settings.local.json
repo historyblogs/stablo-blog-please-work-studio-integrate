@@ -38,7 +38,11 @@
       "Bash(git config *)",
       "Bash(gh repo *)",
       "Bash(ssh *)",
-      "WebFetch(domain:keystatic.com)"
+      "WebFetch(domain:keystatic.com)",
+      "Bash(rm /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/keystatic/[...params].astro)",
+      "Bash(rm /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/api/keystatic/[...params].ts)",
+      "Bash(rm \"/Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/keystatic/[...params].astro\")",
+      "Bash(rm \"/Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/api/keystatic/[...params].ts\")"
     ]
   }
 }
