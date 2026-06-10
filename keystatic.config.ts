@@ -21,7 +21,7 @@ export default config({
     posts: collection({
       label: 'Posts',
       slugField: 'title',
-      path: 'src/data/post/*.mdx',
+      path: 'src/data/post/*',
       format: { contentField: 'content' },
       schema: {
         title: fields.text({ label: 'Title' }),
@@ -42,6 +42,8 @@ export default config({
           label: 'Tags',
         }),
         author: fields.text({ label: 'Author', defaultValue: 'Nathan Marsak' }),
+        location: fields.ignored(),
+        metadata: fields.ignored(),
         content: fields.mdx({
           label: 'Content',
           images: {
