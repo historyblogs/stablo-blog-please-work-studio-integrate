@@ -1,13 +1,17 @@
 import { config, collection, fields } from '@keystatic/core';
 
+const isProd = import.meta.env.PROD;
+
 export default config({
-  storage: {
-    kind: 'github',
-    repo: {
-      owner: 'historyblogs',
-      name: 'stablo-blog-please-work-studio-integrate',
-    },
-  },
+  storage: isProd
+    ? {
+        kind: 'github',
+        repo: {
+          owner: 'historyblogs',
+          name: 'stablo-blog-please-work-studio-integrate',
+        },
+      }
+    : { kind: 'local' },
 
   ui: {
     brand: { name: 'RIP Los Angeles' },
@@ -17,10 +21,10 @@ export default config({
     posts: collection({
       label: 'Posts',
       slugField: 'title',
-      path: 'src/data/post/*',
+      path: 'src/data/post/*.mdx',
       format: { contentField: 'content' },
       schema: {
-        title: fields.slug({ name: { label: 'Title' } }),
+        title: fields.text({ label: 'Title' }),
         publishDate: fields.date({
           label: 'Publish Date',
           defaultValue: { kind: 'today' },
