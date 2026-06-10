@@ -15,6 +15,7 @@ export default config({
 
   ui: {
     brand: { name: 'RIP Los Angeles' },
+    navigation: ['posts'],
   },
 
   collections: {
