@@ -42,7 +42,14 @@
       "Bash(rm /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/keystatic/[...params].astro)",
       "Bash(rm /Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/api/keystatic/[...params].ts)",
       "Bash(rm \"/Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/keystatic/[...params].astro\")",
-      "Bash(rm \"/Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/api/keystatic/[...params].ts\")"
+      "Bash(rm \"/Users/spinoza/Desktop/ASTRO/CLAUDE/RIP-Claude-ASTRO/src/pages/api/keystatic/[...params].ts\")",
+      "Bash(open *)",
+      "Bash(git ls-tree *)",
+      "Bash(vercel --version)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit --allow-empty -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
