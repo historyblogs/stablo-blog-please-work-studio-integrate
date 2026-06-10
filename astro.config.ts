@@ -102,6 +102,12 @@ export default defineConfig({
     ssr: {
       noExternal: ['@keystatic/astro', '@keystatic/core'],
     },
+    define: {
+      'import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID': JSON.stringify(process.env.KEYSTATIC_GITHUB_CLIENT_ID ?? ''),
+      'import.meta.env.KEYSTATIC_GITHUB_CLIENT_SECRET': JSON.stringify(process.env.KEYSTATIC_GITHUB_CLIENT_SECRET ?? ''),
+      'import.meta.env.KEYSTATIC_SECRET': JSON.stringify(process.env.KEYSTATIC_SECRET ?? ''),
+      'import.meta.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG': JSON.stringify(process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG ?? ''),
+    },
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
