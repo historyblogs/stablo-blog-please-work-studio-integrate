@@ -48,8 +48,8 @@ export default config({
         content: fields.mdx({
           label: 'Content',
           images: {
-            directory: 'src/assets/images/blog',
-            publicPath: '~/assets/images/blog/',
+            directory: 'public/images/blog',
+            publicPath: '/images/blog/',
           },
         }),
       },

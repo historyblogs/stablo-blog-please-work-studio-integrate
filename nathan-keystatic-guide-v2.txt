@@ -1,0 +1,88 @@
+RIP LOS ANGELES -- CONTENT EDITOR SETUP GUIDE
+
+
+STEP 1: ACCEPT THE GITHUB INVITATION
+
+Check your email for a message from GitHub with the subject line:
+"You have been invited to collaborate on historyblogs/stablo-blog-please-work-studio-integrate"
+
+Open that email and click the green Accept Invitation button.
+
+You will need a GitHub account to accept. If you do not have one, go to:
+
+https://github.com
+
+...and create a free account first, then return to the invitation email and accept.
+
+
+STEP 2: LOG IN TO THE EDITOR
+
+Once you have accepted the GitHub invitation, open your browser and go to:
+
+https://www.riplosangeles.com/keystatic
+
+Click the Sign in with GitHub button.
+
+GitHub will ask you to authorize the RIP Los Angeles CMS app. Click Authorize.
+
+You will be brought to the editor dashboard. You should see:
+
+   Hello, [your GitHub username]!
+   Current branch: main
+   Posts: 76 entries
+
+
+STEP 3: EDITING A POST
+
+1. Click Posts in the left sidebar.
+2. Find the post you want to edit -- posts are listed alphabetically.
+   Use your browser's Find (Cmd+F on Mac, Ctrl+F on Windows) to search.
+3. Click the post title to open it.
+4. Edit any fields -- Title, Date, Excerpt, Content, etc.
+5. Click Save (top right corner) when done.
+
+The live site updates within a minute or two after saving.
+
+
+STEP 4: CREATING A NEW POST
+
+1. Click Posts in the left sidebar.
+2. Click Create entry (top right of the post list).
+3. Fill in the Title -- this is required. Without a title the post will
+   not build correctly.
+4. Write your content.
+5. Click Save when ready.
+
+
+STEP 5: PUBLISHING A POST (DRAFT vs. LIVE)
+
+When you create a new post, the Draft checkbox is ticked by default.
+A draft post is saved but does not appear on the live site.
+
+To publish a post:
+1. Open the post in the editor.
+2. Uncheck the Draft checkbox.
+3. Click Save.
+4. Wait about one minute, then visit riplosangeles.com to see it live.
+
+If you want to make a change after publishing:
+1. Go back to the post in the editor and make your edits.
+2. Click Save. The live site updates in about a minute.
+
+If you want to take a post down temporarily:
+1. Open the post, check the Draft checkbox, and click Save.
+2. It will disappear from the site within a minute.
+
+
+NOTES
+
+-- The Hero Image field will appear empty on older posts. This is fine --
+   the images are there and display correctly on the live site. To replace
+   a hero image, click the image field, upload a new photo, and save.
+
+-- To add images inside the body of a post, click the image icon in the
+   content toolbar and upload from your computer.
+
+-- The editor URL is always:
+
+https://www.riplosangeles.com/keystatic
