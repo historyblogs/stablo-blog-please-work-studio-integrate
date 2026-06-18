@@ -25,7 +25,7 @@ export default config({
       path: 'src/data/post/*',
       format: { contentField: 'content' },
       schema: {
-        title: fields.text({ label: 'Title' }),
+        title: fields.slug({ name: { label: 'Title' } }),
         publishDate: fields.date({
           label: 'Publish Date',
           defaultValue: { kind: 'today' },
