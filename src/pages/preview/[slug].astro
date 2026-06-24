@@ -83,8 +83,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <div class="bg-yellow-400 text-black text-center py-3 px-4 font-bold text-sm tracking-wide">
-    DRAFT PREVIEW — This post is not live on the site.
-    To publish it, open it in the editor and uncheck the Draft box.
+    DRAFT PREVIEW — This post is not live on the site. To publish it, open it in the editor and uncheck the Draft box.
   </div>
   <SinglePost post={post} url={new URL(`/preview/${slug}`, Astro.site)}>
     {Content && <Content />}

@@ -9,7 +9,7 @@ metadata:
   title:
     default: RIP Los Angeles
     template: '%s — RIP Los Angeles'
-  description: "RIP Los Angeles blogs Los Angeles one demolition permit at a time."
+  description: 'RIP Los Angeles blogs Los Angeles one demolition permit at a time.'
   robots:
     index: true
     follow: true

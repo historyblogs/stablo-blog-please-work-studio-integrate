@@ -46,11 +46,7 @@ const metadata = merge(
 
 const SITE = 'https://www.riplosangeles.com';
 const canonicalUrl = (post.metadata?.canonical || url).toString();
-const imageUrl = image
-  ? typeof image === 'string'
-    ? image
-    : `${SITE}${(image as ImageMetadata).src}`
-  : undefined;
+const imageUrl = image ? (typeof image === 'string' ? image : `${SITE}${(image as ImageMetadata).src}`) : undefined;
 
 const jsonLd = {
   '@context': 'https://schema.org',

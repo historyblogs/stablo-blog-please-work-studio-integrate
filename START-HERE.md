@@ -2,7 +2,7 @@
 
 ## What this is
 
-Nathan Marsak's *RIP Los Angeles* blog (riplosangeles.com) — documenting demolished LA buildings — migrated from Sanity.io to a fully static Astro site using the AstroWind template. No more Sanity dependency; everything is local files.
+Nathan Marsak's _RIP Los Angeles_ blog (riplosangeles.com) — documenting demolished LA buildings — migrated from Sanity.io to a fully static Astro site using the AstroWind template. No more Sanity dependency; everything is local files.
 
 **Stack:** Astro v6 · Tailwind CSS v4 · TypeScript · MDX · Sharp  
 **Run dev:** `npm run dev` → localhost:4321  
@@ -12,15 +12,15 @@ Nathan Marsak's *RIP Los Angeles* blog (riplosangeles.com) — documenting demol
 
 ## Where things live
 
-| What | Path |
-|------|------|
-| Blog posts (77 total) | `src/data/post/*.md` |
-| Post images (717, all WebP) | `src/assets/images/blog/` |
-| Location collection (64 entries) | `src/content/locations/*.md` |
-| Content schema | `src/content.config.ts` |
-| Site config | `src/config.yaml` |
-| Tailwind / theme | `src/assets/styles/tailwind.css` |
-| Custom colors/fonts | `src/components/CustomStyles.astro` |
+| What                             | Path                                |
+| -------------------------------- | ----------------------------------- |
+| Blog posts (77 total)            | `src/data/post/*.md`                |
+| Post images (717, all WebP)      | `src/assets/images/blog/`           |
+| Location collection (64 entries) | `src/content/locations/*.md`        |
+| Content schema                   | `src/content.config.ts`             |
+| Site config                      | `src/config.yaml`                   |
+| Tailwind / theme                 | `src/assets/styles/tailwind.css`    |
+| Custom colors/fonts              | `src/components/CustomStyles.astro` |
 
 ---
 
@@ -35,7 +35,7 @@ All work happened in roughly this order:
 5. **`insert-excerpts.py`** — Generated excerpts for posts missing them
 6. **`geocode-posts.py`** — Geocoded all address-based post slugs via Nominatim (OSM); inserted `location:` blocks (address + lat/lng) into post frontmatter
 7. **`geocode-remaining.py`** — Second-pass for ~10 posts Nominatim couldn't resolve; used simplified queries + hardcoded fallback coords
-8. **`migrate-locations.py`** *(most recent, May 27)* — Extracted embedded location objects into a proper Astro content collection (`src/content/locations/`), rewrote post frontmatter to use `location: slug` references
+8. **`migrate-locations.py`** _(most recent, May 27)_ — Extracted embedded location objects into a proper Astro content collection (`src/content/locations/`), rewrote post frontmatter to use `location: slug` references
 
 ---
 

@@ -3,69 +3,108 @@ import { SITE } from 'astrowind:config';
 ---
 
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 flex items-center gap-2 whitespace-nowrap">
-  <svg width="44" height="52" viewBox="0 0 44 52" xmlns="http://www.w3.org/2000/svg" aria-label="Demo Notice" role="img">
+  <svg
+    width="44"
+    height="52"
+    viewBox="0 0 44 52"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-label="Demo Notice"
+    role="img"
+  >
     <defs>
       <!-- Weathered granite: coarse variation + dense fine speckles -->
       <filter id="granite-logo" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB">
-        <feTurbulence type="fractalNoise" baseFrequency="0.18 0.14" numOctaves="3" seed="9" result="coarse"/>
-        <feTurbulence type="fractalNoise" baseFrequency="1.4 1.1" numOctaves="4" seed="4" result="fine"/>
-        <feColorMatrix type="matrix"
+        <feTurbulence type="fractalNoise" baseFrequency="0.18 0.14" numOctaves="3" seed="9" result="coarse"
+        ></feTurbulence>
+        <feTurbulence type="fractalNoise" baseFrequency="1.4 1.1" numOctaves="4" seed="4" result="fine"></feTurbulence>
+        <feColorMatrix
+          type="matrix"
           values="0 0 0 0 0.22  0 0 0 0 0.22  0 0 0 0 0.22  0 0 0 0.55 0"
-          in="coarse" result="darkVar"/>
-        <feColorMatrix type="matrix"
+          in="coarse"
+          result="darkVar"></feColorMatrix>
+        <feColorMatrix
+          type="matrix"
           values="0 0 0 0 1  0 0 0 0 0.96  0 0 0 0 0.92  0 0 0 0.7 0"
-          in="fine" result="lightSpeckles"/>
-        <feComposite in="darkVar"       in2="SourceGraphic" operator="in" result="cd"/>
-        <feComposite in="lightSpeckles" in2="SourceGraphic" operator="in" result="cs"/>
+          in="fine"
+          result="lightSpeckles"></feColorMatrix>
+        <feComposite in="darkVar" in2="SourceGraphic" operator="in" result="cd"></feComposite>
+        <feComposite in="lightSpeckles" in2="SourceGraphic" operator="in" result="cs"></feComposite>
         <feMerge>
-          <feMergeNode in="SourceGraphic"/>
-          <feMergeNode in="cd"/>
-          <feMergeNode in="cs"/>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+          <feMergeNode in="cd"></feMergeNode>
+          <feMergeNode in="cs"></feMergeNode>
         </feMerge>
       </filter>
       <!-- Arc path for DEMO text — pulled inward to give bigger font clearance from edge -->
-      <path id="dome-arc" d="M 10,22 A 14,14 0 0 1 34,22"/>
+      <path id="dome-arc" d="M 10,22 A 14,14 0 0 1 34,22"></path>
       <!-- Chiseled V-groove: directional light off a blurred alpha bump -->
       <filter id="chisel-text" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="0.9" result="bump"/>
-        <feSpecularLighting in="bump" surfaceScale="3" specularConstant="1.0" specularExponent="10"
-            lighting-color="white" result="spec">
-          <feDistantLight azimuth="220" elevation="30"/>
+        <feGaussianBlur in="SourceAlpha" stdDeviation="0.9" result="bump"></feGaussianBlur>
+        <feSpecularLighting
+          in="bump"
+          surfaceScale="3"
+          specularConstant="1.0"
+          specularExponent="10"
+          lighting-color="white"
+          result="spec"
+        >
+          <feDistantLight azimuth="220" elevation="30"></feDistantLight>
         </feSpecularLighting>
-        <feComposite in="spec" in2="SourceAlpha" operator="in" result="highlight"/>
-        <feDiffuseLighting in="bump" surfaceScale="3" diffuseConstant="0.4"
-            lighting-color="#555" result="diff">
-          <feDistantLight azimuth="40" elevation="30"/>
+        <feComposite in="spec" in2="SourceAlpha" operator="in" result="highlight"></feComposite>
+        <feDiffuseLighting in="bump" surfaceScale="3" diffuseConstant="0.4" lighting-color="#555" result="diff">
+          <feDistantLight azimuth="40" elevation="30"></feDistantLight>
         </feDiffuseLighting>
-        <feComposite in="diff" in2="SourceAlpha" operator="in" result="shadow"/>
+        <feComposite in="diff" in2="SourceAlpha" operator="in" result="shadow"></feComposite>
         <feMerge>
-          <feMergeNode in="SourceGraphic"/>
-          <feMergeNode in="shadow"/>
-          <feMergeNode in="highlight"/>
+          <feMergeNode in="SourceGraphic"></feMergeNode>
+          <feMergeNode in="shadow"></feMergeNode>
+          <feMergeNode in="highlight"></feMergeNode>
         </feMerge>
       </filter>
     </defs>
 
     <!-- Granite tombstone body -->
-    <path d="M 2,50 L 2,22 A 20,20 0 0 1 42,22 L 42,50 Z"
-          fill="#3c3c3c" stroke="#111" stroke-width="1.5"
-          filter="url(#granite-logo)"/>
+    <path
+      d="M 2,50 L 2,22 A 20,20 0 0 1 42,22 L 42,50 Z"
+      fill="#3c3c3c"
+      stroke="#111"
+      stroke-width="1.5"
+      filter="url(#granite-logo)"></path>
 
     <!-- DEMO curved along the dome arch -->
-    <text font-family="Georgia, 'Times New Roman', serif"
-          font-size="8" font-weight="bold" fill="#0d0d0d" letter-spacing="1.5">
+    <text
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="8"
+      font-weight="bold"
+      fill="#0d0d0d"
+      letter-spacing="1.5"
+    >
       <textPath href="#dome-arc" startOffset="50%" text-anchor="middle">DEMO</textPath>
     </text>
 
     <!-- NOTICE — straight, solid, no distress filter -->
-    <text x="22" y="31" font-family="Georgia, 'Times New Roman', serif"
-          font-size="6.5" font-weight="bold" text-anchor="middle"
-          fill="#0d0d0d" letter-spacing="1.2">NOTICE</text>
+    <text
+      x="22"
+      y="31"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="6.5"
+      font-weight="bold"
+      text-anchor="middle"
+      fill="#0d0d0d"
+      letter-spacing="1.2">NOTICE</text
+    >
 
     <!-- RIP — bigger, wider spaced, darkest fill -->
-    <text x="22" y="42" font-family="Georgia, 'Times New Roman', serif"
-          font-size="9" font-weight="bold" text-anchor="middle"
-          fill="#000000" letter-spacing="4">RIP</text>
+    <text
+      x="22"
+      y="42"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="9"
+      font-weight="bold"
+      text-anchor="middle"
+      fill="#000000"
+      letter-spacing="4">RIP</text
+    >
   </svg>
   <span class="text-2xl md:text-xl font-bold text-gray-900 dark:text-white">{SITE?.name}</span>
 </span>

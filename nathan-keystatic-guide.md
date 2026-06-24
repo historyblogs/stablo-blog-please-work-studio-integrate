@@ -41,7 +41,7 @@ Click **Posts** to see the full list.
    - **Draft** — tick this box to hide the post from the live site
    - **Excerpt** — the short summary shown on the blog index
    - **Hero Image** — the main image at the top of the post
-   - **Category** — single category (e.g. *Personal Growth*)
+   - **Category** — single category (e.g. _Personal Growth_)
    - **Tags** — add or remove tags one at a time
    - **Author** — defaults to Nathan Marsak
    - **Content** — the full body of the post (rich text editor)

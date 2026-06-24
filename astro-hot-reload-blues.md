@@ -41,10 +41,12 @@ Astro defaults to port 4321 and will hunt for the next free port if it's taken. 
 ```typescript
 export default defineConfig({
   server: {
-    port: 4321,   // ← change this number per project (4321, 4322, 4323, …)
+    port: 4321, // ← change this number per project (4321, 4322, 4323, …)
   },
 
-  vite: { /* ... */ },
+  vite: {
+    /* ... */
+  },
 });
 ```
 

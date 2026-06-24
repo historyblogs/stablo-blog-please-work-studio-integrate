@@ -9,7 +9,6 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <section class="max-w-2xl mx-auto px-4 sm:px-6 py-12 md:py-16">
-
     <div class="text-center mb-10">
       <p class="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Get in touch</p>
       <h1 class="text-4xl font-bold font-heading dark:text-white">Contact Nathan</h1>
@@ -19,19 +18,24 @@ const metadata = {
     </div>
 
     <!-- Success message (hidden by default) -->
-    <div id="success-msg" class="hidden mb-6 rounded-lg bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 px-6 py-4 text-green-800 dark:text-green-300 text-center">
+    <div
+      id="success-msg"
+      class="hidden mb-6 rounded-lg bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 px-6 py-4 text-green-800 dark:text-green-300 text-center"
+    >
       <p class="font-semibold text-lg">Message sent!</p>
       <p class="text-sm mt-1">Thanks for reaching out. Nathan will be in touch.</p>
     </div>
 
     <!-- Error message (hidden by default) -->
-    <div id="error-msg" class="hidden mb-6 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 px-6 py-4 text-red-800 dark:text-red-300 text-center">
+    <div
+      id="error-msg"
+      class="hidden mb-6 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 px-6 py-4 text-red-800 dark:text-red-300 text-center"
+    >
       <p class="font-semibold">Something went wrong.</p>
       <p class="text-sm mt-1">Please try again in a few minutes.</p>
     </div>
 
     <form id="contact-form" class="space-y-5">
-
       <!-- Web3Forms required fields -->
       <input type="hidden" name="access_key" value="208de225-a20b-4b9c-bca1-0cf7857b72e6" />
       <input type="hidden" name="subject" value="[RIP Los Angeles] New contact form message" />
@@ -73,8 +77,7 @@ const metadata = {
           required
           rows="6"
           class="w-full rounded-lg border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary resize-y"
-          placeholder="Your message..."
-        ></textarea>
+          placeholder="Your message..."></textarea>
       </div>
 
       <button
@@ -84,10 +87,7 @@ const metadata = {
       >
         Send Message
       </button>
-
     </form>
-
-
   </section>
 </Layout>
 
