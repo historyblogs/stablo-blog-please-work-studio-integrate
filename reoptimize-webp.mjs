@@ -31,7 +31,7 @@ for (const filename of files) {
     if (done % 100 === 0) console.log(`  ${done}/${files.length}...`);
   } catch (e) {
     console.error(`  FAIL: ${filename} — ${e.message}`);
-    try { await unlink(tmpPath); } catch {}
+    try { await unlink(tmpPath); } catch { /* ignore cleanup failure */ }
     failed++;
   }
 }
