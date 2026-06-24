@@ -11,5 +11,31 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    { "source": "/:y/:m/:d/371-77-n-st-andrews", "destination": "/post/371-377-north-st-andrews-place", "permanent": true },
+    { "source": "/:y/:m/:d/371-n-st-andrews-update", "destination": "/post/371-377-north-st-andrews-place", "permanent": true },
+    { "source": "/:y/:m/:d/so-ugly-too-ugly", "destination": "/post/too-ugly-for-a-yimby", "permanent": true },
+    { "source": "/:y/:m/:d/pacific-bowling-center-dancing-waters-club-1331-south-pacific-avenue-san-pedro-1940", "destination": "/post/pacific-bowling-center-dancing-waters-club-1331-s-pacific-ave", "permanent": true },
+    { "source": "/:y/:m/:d/lets-talk-about-taix", "destination": "/post/let-s-talk-about-taix", "permanent": true },
+    { "source": "/:y/:m/:d/and-were-back", "destination": "/post/and-we-re-back", "permanent": true },
+    { "source": "/:y/:m/:d/1723-n-wilcox", "destination": "/post/1723-n-wilcox-ave", "permanent": true },
+    { "source": "/:y/:m/:d/the-cranky-preservationist-the-battle-of-normandie-episode-17", "destination": "/post/the-cranky-preservationist-and-friends-in-save-700-normandie-avenue-koreatown-s-little-new-york", "permanent": true },
+    { "source": "/:y/:m/:d/save-normandie", "destination": "/post/the-cranky-preservationist-and-friends-in-save-700-normandie-avenue-koreatown-s-little-new-york", "permanent": true },
+    { "source": "/:y/:m/:d/3-beauties-episode-20", "destination": "/post/the-cranky-preservationist-3-beauties-bite-the-dust-episode-20", "permanent": true },
+    { "source": "/:y/:m/:d/preservation-imp-episode-21", "destination": "/post/the-cranky-preservationist-meets-the-l-a-preservation-imp-episode-21", "permanent": true },
+    { "source": "/:y/:m/:d/pantages-neon-episode-22", "destination": "/post/the-cranky-preservationist-in-what-the-hell-happened-to-the-pantages-neon-episode-22", "permanent": true },
+    { "source": "/:y/:m/:d/1330-w-pico-aka-the-albany", "destination": "/post/the-cranky-preservationist-and-the-mystery-of-the-shrinking-hpoz-at-1330-w-pico-aka-the-albany", "permanent": true },
+    { "source": "/:y/:m/:d/white-log-coffee", "destination": "/post/the-cranky-preservationist-in-reports-of-the-death-of-the-white-log-coffee-shop-have-been", "permanent": true },
+    { "source": "/:y/:m/:d/3967-w-beverly-friends", "destination": "/post/3967-beverly-and-friends", "permanent": true },
+    { "source": "/:y/:m/:d/save-bnai-brith", "destination": "/post/b-nai-b-rith-846-south-union-ave", "permanent": true },
+    { "source": "/:y/:m/:d/wall", "destination": "/post/the-cranky-preservationist-in-don-t-f-with-my-bunker-hill-retaining-wall-episode-25", "permanent": true },
+    { "source": "/:y/:m/:d/the-cranky-preservationist-who-breaks-a-butterfly-upon-the-wheel-episode-18", "destination": "/", "permanent": true },
+    { "source": "/:y/:m/:d/squirrels", "destination": "/", "permanent": true },
+    { "source": "/:y/:m/:d/how-we-do-our-demolitions", "destination": "/", "permanent": true },
+    { "source": "/:y/:m/:d/the-blog-is-changing-a-bit", "destination": "/", "permanent": true },
+    { "source": "/:y/:m/:d/asuydkl0", "destination": "/", "permanent": true },
+    { "source": "/:y/:m/:d/a1pzba39", "destination": "/", "permanent": true },
+    { "source": "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug", "destination": "/post/:slug", "permanent": true }
   ]
 }
