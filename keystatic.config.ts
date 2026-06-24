@@ -47,10 +47,6 @@ export default config({
         metadata: fields.ignored(),
         content: fields.mdx({
           label: 'Content',
-          images: {
-            directory: 'public/images/blog',
-            publicPath: '/images/blog/',
-          },
         }),
       },
     }),
